@@ -1,0 +1,803 @@
+{
+ 	"talk1001": {
+		"id": "talk1001",
+		"operatorId": "operatorSaylaMass",
+		"situation": "login",
+		"sceneName": "",
+		"timeZone": "morning",
+		"talk": "おはよう、お帰りなさい。<br />今日も頑張りましょう。あなたならできるわ。",
+		"voiceIndex": "0"
+	},
+	"talk1002": {
+		"id": "talk1002",
+		"operatorId": "operatorSaylaMass",
+		"situation": "login",
+		"sceneName": "",
+		"timeZone": "afternoon",
+		"talk": "こんにちは、お帰りなさい。<br />今日も頑張りましょう。あなたならできるわ。",
+		"voiceIndex": "0"
+	},
+	"talk1003": {
+		"id": "talk1003",
+		"operatorId": "operatorSaylaMass",
+		"situation": "login",
+		"sceneName": "",
+		"timeZone": "night",
+		"talk": "あなたの帰りを待っていたわ。<br />お気をつけて。 発進！どうぞ！",
+		"voiceIndex": "1"
+	},
+	"talk1004": {
+		"id": "talk1004",
+		"operatorId": "operatorSaylaMass",
+		"situation": "load",
+		"sceneName": "PracticeView",
+		"timeZone": "",
+		"talk": "ここでは訓練用シミュレーターを使って、コンピューターと対戦できるわ。<br />発進！どうぞ！",
+		"voiceIndex": "1"
+	},
+	"talk1005": {
+		"id": "talk1005",
+		"operatorId": "operatorSaylaMass",
+		"situation": "load",
+		"sceneName": "MultiplayView",
+		"timeZone": "",
+		"talk": "デッキは色やコストに気を付けて編成しましょう。<br />特定の色コストがないと、なかなかユニットが<br />出撃できない……、なんてことも……",
+		"voiceIndex": "0"
+	},
+	"talk1006": {
+		"id": "talk1006",
+		"operatorId": "operatorSaylaMass",
+		"situation": "load",
+		"sceneName": "CardPurchaseView",
+		"timeZone": "",
+		"talk": "はい。ここではリアルカードの購入や販売店の確認ができます。<br />手に入れたリアルカードは、「カード登録」をすることで<br />アプリでも使うことができるわ。",
+		"voiceIndex": "2"
+	},
+	"talk1007": {
+		"id": "talk1007",
+		"operatorId": "operatorSaylaMass",
+		"situation": "load",
+		"sceneName": "CardRegistrationView",
+		"timeZone": "",
+		"talk": "リアルカードのシリアル登録をすることで、アプリでも同じカードが使用できるわ。<br />不要になったカードは登録解除もできてよ。",
+		"voiceIndex": ""
+	},
+	"talk1008": {
+		"id": "talk1008",
+		"operatorId": "operatorSaylaMass",
+		"situation": "still",
+		"sceneName": "PracticeView",
+		"timeZone": "",
+		"talk": "返事が聞こえないわ。",
+		"voiceIndex": "3"
+	},
+	"talk1009": {
+		"id": "talk1009",
+		"operatorId": "operatorSaylaMass",
+		"situation": "still",
+		"sceneName": "CardRegistrationView",
+		"timeZone": "",
+		"talk": "事情は……　いろいろとね……",
+		"voiceIndex": "4"
+	},
+	"talk1010": {
+		"id": "talk1010",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "あなたならできるわ。",
+		"voiceIndex": "0"
+	},
+	"talk1011": {
+		"id": "talk1011",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "何？",
+		"voiceIndex": "5"
+	},
+	"talk1012": {
+		"id": "talk1012",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "ありがと。",
+		"voiceIndex": "6"
+	},
+	"talk1013": {
+		"id": "talk1013",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "かまいません。",
+		"voiceIndex": "7"
+	},
+	"talk1014": {
+		"id": "talk1014",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "事情は……、いろいろとね……",
+		"voiceIndex": "4"
+	},
+	"talk1015": {
+		"id": "talk1015",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "セイラ・マスです。",
+		"voiceIndex": "8"
+	},
+	"talk1016": {
+		"id": "talk1016",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "「砲撃」なら相手のユニットが「防衛」を持っていても、<br />相手の母艦にダメージを与えられるわ。",
+		"voiceIndex": ""
+	},
+	"talk1017": {
+		"id": "talk1017",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "「防衛」を持ったユニットが場にいれば、<br />母艦が直接攻撃を受けることはなくなるわ。<br />有効に活用しましょう。",
+		"voiceIndex": ""
+	},
+	"talk1018": {
+		"id": "talk1018",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "ユニットが破壊されても、登場していたパイロットはブリッジに戻るわ。<br />ブリッジの人数は10人までよ。",
+		"voiceIndex": ""
+	},
+	"talk1019": {
+		"id": "talk1019",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "デッキは複数保存できるわ。<br />色々なデッキを試してもかまわなくてよ。",
+		"voiceIndex": ""
+	},
+	"talk1020": {
+		"id": "talk1020",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "所属勢力はいつでも変更できるわ。<br />変更前の階級は保持されるから、お気になさらず。",
+		"voiceIndex": ""
+	},
+	"talk1021": {
+		"id": "talk1021",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "キーワード効果の中には、相手のユニットのサイズや位置が影響するものもあるわ。",
+		"voiceIndex": ""
+	},
+	"talk1022": {
+		"id": "talk1022",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "行動済のカードは、自分のターンのエンドフェイズに未行動状態に戻るわ。",
+		"voiceIndex": ""
+	},
+	"talk1023": {
+		"id": "talk1023",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "キーワード効果は、出撃時、攻撃時など、<br />発動タイミングが限定されているものもあるわ。",
+		"voiceIndex": ""
+	},
+	"talk1024": {
+		"id": "talk1024",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "BCを貯めれば、デジタルカードを手に入れることができるわ。",
+		"voiceIndex": ""
+	},
+	"talk1025": {
+		"id": "talk1025",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "カウンターカードは何枚でもセットすることができるわ。<br />先に発動するのは、最後にセットしたカードよ。",
+		"voiceIndex": ""
+	},
+	"talk1026": {
+		"id": "talk1026",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "デッキは色やコストに気を付けて編成しましょう。<br />特定の色コストがないと、なかなかユニットが<br />出撃できない……、なんてことも……",
+		"voiceIndex": ""
+	},
+	"talk1027": {
+		"id": "talk1027",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "Lサイズのユニットカードは場に1体しか<br />出撃させることはできないわ。",
+		"voiceIndex": ""
+	},
+	"talk1028": {
+		"id": "talk1028",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "母艦の耐久値が残っていても、MSデッキが0枚となり、ドローができなければ、<br />負けとなるので注意が必要よ。",
+		"voiceIndex": ""
+	},
+	"talk1029": {
+		"id": "talk1029",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "手に入れた母艦はデッキ編成画面で<br />変更することができるわ。",
+		"voiceIndex": ""
+	},
+	"talk1030": {
+		"id": "talk1030",
+		"operatorId": "operatorSaylaMass",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "「装甲」を持っているユニットは、<br />効果やダメージで「行動済」にしないと破壊できないわ……、かなり強力ね。",
+		"voiceIndex": ""
+	},
+	"talk1031": {
+		"id": "talk1031",
+		"operatorId": "operatorSaylaMass",
+		"situation": "bodyTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "はい。",
+		"voiceIndex": "2"
+	},
+	"talk1032": {
+		"id": "talk1032",
+		"operatorId": "operatorSaylaMass",
+		"situation": "bodyTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "事情は……　いろいろとね……",
+		"voiceIndex": "4"
+	},
+	"talk1033": {
+		"id": "talk1033",
+		"operatorId": "operatorSaylaMass",
+		"situation": "bodyTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "大丈夫なのかしら。",
+		"voiceIndex": "9"
+	},
+	"talk1034": {
+		"id": "talk1034",
+		"operatorId": "operatorSaylaMass",
+		"situation": "bodyTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "了解！",
+		"voiceIndex": "10"
+	},
+	"talk1035": {
+		"id": "talk1035",
+		"operatorId": "operatorSaylaMass",
+		"situation": "faceTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "およしなさい！",
+		"voiceIndex": "11"
+	},
+	"talk1036": {
+		"id": "talk1036",
+		"operatorId": "operatorSaylaMass",
+		"situation": "headTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "何？",
+		"voiceIndex": "5"
+	},
+	"talk1037": {
+		"id": "talk1037",
+		"operatorId": "operatorSaylaMass",
+		"situation": "headTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "ありがと。",
+		"voiceIndex": "6"
+	},
+	"talk1038": {
+		"id": "talk1038",
+		"operatorId": "operatorSaylaMass",
+		"situation": "headTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "かまいません。",
+		"voiceIndex": "7"
+	},
+	"talk1039": {
+		"id": "talk1039",
+		"operatorId": "operatorSaylaMass",
+		"situation": "bustTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "あっ！",
+		"voiceIndex": "12"
+	},
+	"talk1040": {
+		"id": "talk1040",
+		"operatorId": "operatorSaylaMass",
+		"situation": "bustTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "おやめなさい！",
+		"voiceIndex": "13"
+	},
+	"talk1041": {
+		"id": "talk1041",
+		"operatorId": "operatorSaylaMass",
+		"situation": "bustTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "あなたは何をかんがえてるの？",
+		"voiceIndex": "14"
+	},
+	"talk1042": {
+		"id": "talk1042",
+		"operatorId": "operatorSaylaMass",
+		"situation": "bustTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "それでも男ですか！　軟弱者！",
+		"voiceIndex": "15"
+	},
+	"talk2001": {
+		"id": "talk2001",
+		"operatorId": "operatorQuessParaya",
+		"situation": "login",
+		"sceneName": "",
+		"timeZone": "morning",
+		"talk": "おはよー。今日も楽しいよね！",
+		"voiceIndex": "0"
+	},
+	"talk2002": {
+		"id": "talk2002",
+		"operatorId": "operatorQuessParaya",
+		"situation": "login",
+		"sceneName": "",
+		"timeZone": "afternoon",
+		"talk": "こんな昼間から何してんの？",
+		"voiceIndex": "1"
+	},
+	"talk2003": {
+		"id": "talk2003",
+		"operatorId": "operatorQuessParaya",
+		"situation": "login",
+		"sceneName": "",
+		"timeZone": "night",
+		"talk": "夜遅くまでお疲れ様ー。",
+		"voiceIndex": "2"
+	},
+	"talk2004": {
+		"id": "talk2004",
+		"operatorId": "operatorQuessParaya",
+		"situation": "load",
+		"sceneName": "PracticeView",
+		"timeZone": "",
+		"talk": "ここでは訓練用シミュレーターを使って、コンピューターと対戦できるよ。<br />行ってらっしゃい！",
+		"voiceIndex": "3"
+	},
+	"talk2005": {
+		"id": "talk2005",
+		"operatorId": "operatorQuessParaya",
+		"situation": "load",
+		"sceneName": "MultiplayView",
+		"timeZone": "",
+		"talk": "「一ヶ月戦争」は所属勢力に分かれて世界中のライバルと競えるよ。<br />頑張ると階級も上がるし、報酬ももらえるよ。頑張って勝ってきてね！エヘヘヘ……",
+		"voiceIndex": "4"
+	},
+	"talk2006": {
+		"id": "talk2006",
+		"operatorId": "operatorQuessParaya",
+		"situation": "load",
+		"sceneName": "CardParchaseView",
+		"timeZone": "",
+		"talk": "リアルカードの購入と、販売店の確認ができるよ。<br />「カード登録」をすれば、手に入れたリアルカードをアプリでも使えるよ。<br />そのカードって面白い？",
+		"voiceIndex": "5"
+	},
+	"talk2007": {
+		"id": "talk2007",
+		"operatorId": "operatorQuessParaya",
+		"situation": "load",
+		"sceneName": "CardRegistrationView",
+		"timeZone": "",
+		"talk": "リアルカードをシリアル登録すると、アプリでも同じカードが使えるよ。<br />いらない不要カードは登録解除もできるんだって。",
+		"voiceIndex": "6"
+	},
+	"talk2008": {
+		"id": "talk2008",
+		"operatorId": "operatorQuessParaya",
+		"situation": "still",
+		"sceneName": "PracticeView",
+		"timeZone": "",
+		"talk": "どうかした？",
+		"voiceIndex": "7"
+	},
+	"talk2009": {
+		"id": "talk2009",
+		"operatorId": "operatorQuessParaya",
+		"situation": "still",
+		"sceneName": "CardRegistrationView",
+		"timeZone": "",
+		"talk": "もっと登録しちゃおう！",
+		"voiceIndex": "8"
+	},
+	"talk2010": {
+		"id": "talk2010",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "そのカードって面白い？",
+		"voiceIndex": "5"
+	},
+	"talk2011": {
+		"id": "talk2011",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "何？",
+		"voiceIndex": "9"
+	},
+	"talk2012": {
+		"id": "talk2012",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "この船の人たちはみんな親切だよね。",
+		"voiceIndex": "10"
+	},
+	"talk2013": {
+		"id": "talk2013",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "どうかした？",
+		"voiceIndex": "7"
+	},
+	"talk2014": {
+		"id": "talk2014",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "インドのクリスチーナに久々に会いたいな。",
+		"voiceIndex": "11"
+	},
+	"talk2015": {
+		"id": "talk2015",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "誰かの身代わりなんて、嫌だよね……",
+		"voiceIndex": "12"
+	},
+	"talk2016": {
+		"id": "talk2016",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "ニュータイプの力ってどんな意味があるのかな……？",
+		"voiceIndex": "13"
+	},
+	"talk2017": {
+		"id": "talk2017",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "エヘヘヘ……",
+		"voiceIndex": "14"
+	},
+	"talk2018": {
+		"id": "talk2018",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "なんか暇だなぁ、一緒に遊ばない？",
+		"voiceIndex": "15"
+	},
+	"talk2019": {
+		"id": "talk2019",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "最近なんだか楽しいんだ！",
+		"voiceIndex": "6"
+	},
+	"talk2020": {
+		"id": "talk2020",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "なにかいい予感がするんだ！これもニュータイプの力なのかな？",
+		"voiceIndex": "16"
+	},
+	"talk2021": {
+		"id": "talk2021",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "「砲撃」なら相手のユニットが「防衛」を持っていても、<br />相手の母艦にダメージを与えられるわ。",
+		"voiceIndex": ""
+	},
+	"talk2022": {
+		"id": "talk2022",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "「防衛」を持ったユニットが場にいれば、<br />母艦が直接攻撃を受けることはなくなるわ。<br />有効に活用しましょう。",
+		"voiceIndex": ""
+	},
+	"talk2023": {
+		"id": "talk2023",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "ユニットが破壊されても、登場していたパイロットはブリッジに戻るわ。<br />ブリッジの人数は10人までよ。",
+		"voiceIndex": ""
+	},
+	"talk2024": {
+		"id": "talk2024",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "デッキは複数保存できるわ。<br />色々なデッキを試してもかまわなくてよ。",
+		"voiceIndex": ""
+	},
+	"talk2025": {
+		"id": "talk2025",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "所属勢力はいつでも変更できるわ。<br />変更前の階級は保持されるから、お気になさらず。",
+		"voiceIndex": ""
+	},
+	"talk2026": {
+		"id": "talk2026",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "キーワード効果の中には、相手のユニットのサイズや位置が影響するものもあるわ。",
+		"voiceIndex": ""
+	},
+	"talk2027": {
+		"id": "talk2027",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "行動済のカードは、自分のターンのエンドフェイズに未行動状態に戻るわ。",
+		"voiceIndex": ""
+	},
+	"talk2028": {
+		"id": "talk2028",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "キーワード効果は、出撃時、攻撃時など、<br />発動タイミングが限定されているものもあるわ。",
+		"voiceIndex": ""
+	},
+	"talk2029": {
+		"id": "talk2029",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "NCを貯めれば、デジタルカードを手に入れることができるわ。",
+		"voiceIndex": ""
+	},
+	"talk2030": {
+		"id": "talk2030",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "カウンターカードは何枚でもセットすることができるわ。<br />先に発動するのは、最後にセットしたカードよ。",
+		"voiceIndex": ""
+	},
+	"talk2031": {
+		"id": "talk2031",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "デッキは色やコストに気を付けて編成しましょう。<br />特定の色コストがないと、なかなかユニットが<br />出撃できない……、なんてことも……",
+		"voiceIndex": ""
+	},
+	"talk2032": {
+		"id": "talk2032",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "Lサイズのユニットカードは場に1体しか<br />出撃させることはできないわ。",
+		"voiceIndex": ""
+	},
+	"talk2033": {
+		"id": "talk2033",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "母艦の耐久値が残っていても、MSデッキが0枚となり、ドローができなければ、<br />負けとなるので注意が必要よ。",
+		"voiceIndex": ""
+	},
+	"talk2034": {
+		"id": "talk2034",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "手に入れた母艦はデッキ編成画面で<br />変更することができるわ。",
+		"voiceIndex": ""
+	},
+	"talk2035": {
+		"id": "talk2035",
+		"operatorId": "operatorQuessParaya",
+		"situation": "random",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "「装甲」を持っているユニットは、<br />効果やダメージで「行動済」にしないと破壊できないわ……、かなり強力ね。",
+		"voiceIndex": ""
+	},
+	"talk2036": {
+		"id": "talk2036",
+		"operatorId": "operatorQuessParaya",
+		"situation": "bodyTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "なんか暇だなぁ、一緒に遊ばない？",
+		"voiceIndex": "15"
+	},
+	"talk2037": {
+		"id": "talk2037",
+		"operatorId": "operatorQuessParaya",
+		"situation": "bodyTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "最近なんだか楽しいんだ！",
+		"voiceIndex": "6"
+	},
+	"talk2038": {
+		"id": "talk2038",
+		"operatorId": "operatorQuessParaya",
+		"situation": "bodyTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "なにかいい予感がするんだ！これもニュータイプの力なのかな？",
+		"voiceIndex": "16"
+	},
+	"talk2039": {
+		"id": "talk2039",
+		"operatorId": "operatorQuessParaya",
+		"situation": "bodyTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "そのカードって面白い？",
+		"voiceIndex": "5"
+	},
+	"talk2040": {
+		"id": "talk2040",
+		"operatorId": "operatorQuessParaya",
+		"situation": "faceTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "どうしたの？",
+		"voiceIndex": "17"
+	},
+	"talk2041": {
+		"id": "talk2041",
+		"operatorId": "operatorQuessParaya",
+		"situation": "headTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "エヘヘヘ……",
+		"voiceIndex": "14"
+	},
+	"talk2042": {
+		"id": "talk2042",
+		"operatorId": "operatorQuessParaya",
+		"situation": "headTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "何？",
+		"voiceIndex": "9"
+	},
+	"talk2043": {
+		"id": "talk2043",
+		"operatorId": "operatorQuessParaya",
+		"situation": "headTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "どうかした？",
+		"voiceIndex": "7"
+	},
+	"talk2044": {
+		"id": "talk2044",
+		"operatorId": "operatorQuessParaya",
+		"situation": "bustTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "あんた、一体何考えてんのさ！",
+		"voiceIndex": "18"
+	},
+	"talk2045": {
+		"id": "talk2045",
+		"operatorId": "operatorQuessParaya",
+		"situation": "bustTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "そういうことするって、ちょっとセコいんじゃないの！",
+		"voiceIndex": "19"
+	},
+	"talk2046": {
+		"id": "talk2046",
+		"operatorId": "operatorQuessParaya",
+		"situation": "bustTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "あぁ…… もう……！",
+		"voiceIndex": "20"
+	},
+	"talk2047": {
+		"id": "talk2047",
+		"operatorId": "operatorQuessParaya",
+		"situation": "bustTouch",
+		"sceneName": "",
+		"timeZone": "",
+		"talk": "ちょっと！やめてよね！船から降ろすよ！",
+		"voiceIndex": "21"
+	}
+}

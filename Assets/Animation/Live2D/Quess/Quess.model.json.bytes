@@ -1,0 +1,40 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"moc/Quess.moc",
+	"textures":[
+		"moc/Quess.2048/texture_00.png"
+	],
+	"motions":{
+		"idle":[
+			{"file":"mtn/idle.mtn"}
+		],
+		"":[
+			{"file":"mtn/01.mtn","sound":"voice/QuessParaya_01.mp3"},
+			{"file":"mtn/02.mtn","sound":"voice/QuessParaya_02.mp3"},
+			{"file":"mtn/03.mtn","sound":"voice/QuessParaya_03.mp3"},
+			{"file":"mtn/04.mtn","sound":"voice/QuessParaya_04.mp3"},
+			{"file":"mtn/05.mtn","sound":"voice/QuessParaya_05.mp3"},
+			{"file":"mtn/06.mtn","sound":"voice/QuessParaya_06.mp3"},
+			{"file":"mtn/07.mtn","sound":"voice/QuessParaya_07.mp3"},
+			{"file":"mtn/08.mtn","sound":"voice/QuessParaya_08.mp3"},
+			{"file":"mtn/09.mtn","sound":"voice/QuessParaya_09.mp3"},
+			{"file":"mtn/10.mtn","sound":"voice/QuessParaya_10.mp3"},
+			{"file":"mtn/11.mtn","sound":"voice/QuessParaya_11.mp3"},
+			{"file":"mtn/12.mtn","sound":"voice/QuessParaya_12.mp3"},
+			{"file":"mtn/13.mtn","sound":"voice/QuessParaya_13.mp3"},
+			{"file":"mtn/14.mtn","sound":"voice/QuessParaya_14.mp3"},
+			{"file":"mtn/15.mtn","sound":"voice/QuessParaya_15.mp3"},
+			{"file":"mtn/16.mtn","sound":"voice/QuessParaya_16_A.mp3"},
+			{"file":"mtn/17.mtn","sound":"voice/QuessParaya_17.mp3"},
+			{"file":"mtn/18.mtn","sound":"voice/QuessParaya_18.mp3"},
+			{"file":"mtn/19.mtn","sound":"voice/QuessParaya_19.mp3"},
+			{"file":"mtn/20.mtn","sound":"voice/QuessParaya_20.mp3"},
+			{"file":"mtn/21.mtn","sound":"voice/QuessParaya_21.mp3"},
+			{"file":"mtn/22.mtn","sound":"voice/QuessParaya_22.mp3"},
+			{"file":"mtn/23_A.mtn","sound":"voice/QuessParaya_23_A.mp3"},
+			{"file":"mtn/23_B.mtn","sound":"voice/QuessParaya_23_B.mp3"},
+			{"file":"mtn/24.mtn","sound":"voice/QuessParaya_24.mp3"}
+		]
+	},
+	"physics":"Quess.physics.json"
+}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Views/00_SplashView/SplashView.unity
+  - enabled: 1
+    path: Assets/Views/01_TitleView/TitleView.unity
+  - enabled: 1
+    path: Assets/Views/02_LoadingView/LoadingView.unity
+  - enabled: 1
+    path: Assets/Views/03_FirstInitialRegistrationView/FirstInitialRegistrationView.unity
+  - enabled: 1
+    path: Assets/Views/04_TutorialView/TutorialView.unity
+  - enabled: 1
+    path: Assets/Views/05_SecondInitialRegistrationView/SecondInitialRegistrationView.unity
+  - enabled: 1
+    path: Assets/Views/11_HomeView/HomeView.unity
+  - enabled: 1
+    path: Assets/Views/12_DeckConstructionView/DeckConstructionView.unity
+  - enabled: 1
+    path: Assets/Views/13_ShopView/ShopView.unity
+  - enabled: 1
+    path: Assets/Views/14_CardPurchaseView/CardPurchaseView.unity
+  - enabled: 1
+    path: Assets/Views/15_CardRegistrationView/CardRegistrationView.unity
+  - enabled: 1
+    path: Assets/Views/16_MenuView/MenuView.unity
+  - enabled: 1
+    path: Assets/Views/21_PracticeView/PracticeView.unity
+  - enabled: 1
+    path: Assets/Views/22_MultiplayView/MultiplayView.unity
+  - enabled: 1
+    path: Assets/Views/23_ResultView/ResultView.unity
+  - enabled: 1
+    path: Assets/Views/GameView/GameView/GameView.unity
+  - enabled: 1
+    path: Assets/Views/04_TutorialView/NewTutorialIntroView.unity
+  - enabled: 1
+    path: Assets/Views/04_TutorialView/NewTutorialViewStep1.unity
+  - enabled: 1
+    path: Assets/Views/04_TutorialView/NewTutorialViewStep2.unity
+  - enabled: 1
+    path: Assets/Views/04_TutorialView/NewTutorialViewStep3.unity
+  - enabled: 1
+    path: Assets/Views/04_TutorialView/NewTutorialViewStep4.unity
+  - enabled: 1
+    path: Assets/Views/04_TutorialView/NewTutorialViewStep5.unity
+  - enabled: 1
+    path: Assets/Views/04_TutorialView/NewTutorialEndView.unity

@@ -1,0 +1,146 @@
+{
+	"federation": {
+		"characteristicId": "federation",
+		"jpName": "連邦"
+	},
+	"aeug": {
+		"characteristicId": "aeug",
+		"jpName": "エゥーゴ"
+	},
+	"zion": {
+		"characteristicId": "zion",
+		"jpName": "ジオン"
+	},
+	"titans": {
+		"characteristicId": "titans",
+		"jpName": "ティターンズ"
+	},
+	"delaz-fleet": {
+		"characteristicId": "delaz-fleet",
+		"jpName": "デラーズ・フリート"
+	},
+	"league-militaire": {
+		"characteristicId": "league-militaire",
+		"jpName": "リガ・ミリティア"
+	},
+	"gjallarhorn": {
+		"characteristicId": "gjallarhorn",
+		"jpName": "ギャラルホルン"
+	},
+	"alliance": {
+		"characteristicId": "alliance",
+		"jpName": "連合"
+	},
+	"zaft": {
+		"characteristicId": "zaft",
+		"jpName": "ザフト"
+	},
+	"orb": {
+		"characteristicId": "orb",
+		"jpName": "オーブ"
+	},
+	"cgs": {
+		"characteristicId": "cgs",
+		"jpName": "ＣＧＳ"
+	},
+	"graze": {
+		"characteristicId": "graze",
+		"jpName": "グレイズ"
+	},
+	"fighter": {
+		"characteristicId": "fighter",
+		"jpName": "戦闘機"
+	},
+	"ground": {
+		"characteristicId": "ground",
+		"jpName": "陸戦型"
+	},
+	"amphibious": {
+		"characteristicId": "amphibious",
+		"jpName": "水陸両用"
+	},
+	"chars": {
+		"characteristicId": "chars",
+		"jpName": "シャア専用"
+	},
+	"rals": {
+		"characteristicId": "rals",
+		"jpName": "ラル専用"
+	},
+	"casvals": {
+		"characteristicId": "casvals",
+		"jpName": "キャスバル専用"
+	},
+	"ma": {
+		"characteristicId": "ma",
+		"jpName": "ＭＡ"
+	},
+	"gundam": {
+		"characteristicId": "gundam",
+		"jpName": "ガンダム"
+	},
+	"jimu": {
+		"characteristicId": "jimu",
+		"jpName": "ジム"
+	},
+	"gp": {
+		"characteristicId": "gp",
+		"jpName": "GP"
+	},
+	"magella-attack": {
+		"characteristicId": "magella-attack",
+		"jpName": "マゼラアタックイ"
+	},
+	"zaku": {
+		"characteristicId": "zaku",
+		"jpName": "ザク"
+	},
+	"gouf": {
+		"characteristicId": "gouf",
+		"jpName": "グフ"
+	},
+	"domu": {
+		"characteristicId": "domu",
+		"jpName": "ドム"
+	},
+	"gelgoog": {
+		"characteristicId": "gelgoog",
+		"jpName": "ゲルググ"
+	},
+	"dagger": {
+		"characteristicId": "dagger",
+		"jpName": "ダガー"
+	},
+	"strikerPack": {
+		"characteristicId": "strikerPack",
+		"jpName": "ストライカーパック"
+	},
+	"astray": {
+		"characteristicId": "astray",
+		"jpName": "アストレイ"
+	},
+	"jin": {
+		"characteristicId": "jin",
+		"jpName": "ジン"
+	},
+	"nt": {
+		"characteristicId": "nt",
+		"jpName": "ＮＴ"
+	},
+	"special": {
+		"characteristicId": "special",
+		"jpName": "スペシャル"
+	},
+	"natural": {
+		"characteristicId": "natural",
+		"jpName": "ナチュラル"
+	},
+	"coordinator": {
+		"characteristicId": "coordinator",
+		"jpName": "コーディネイター"
+	},
+	"arayashiki": {
+		"characteristicId": "arayashiki",
+		"jpName": "阿頼耶識"
+	}
+}

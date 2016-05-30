@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: c5ef5132416774e8c9e74882c299f2a1
+timeCreated: 1445688695
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - gameJson: {fileID: 4900000, guid: 4ac0e22e42bbc40f89cdcd6a740f70ed, type: 3}
+  - gameSecretsJson: {fileID: 4900000, guid: 2d66a8155be584350a29b66ce593ab72, type: 3}
+  - cardTypes: {fileID: 4900000, guid: a7b15fc2b977d4564846595c5b336765, type: 3}
+  - cardsPilot: {fileID: 4900000, guid: 774d2d086f49d4874b108f74c078fd4c, type: 3}
+  - cardsCrew: {fileID: 4900000, guid: 19108a8c3c6a9479a9d159f13958a50f, type: 3}
+  - cardsUnit: {fileID: 4900000, guid: fb7573db38e994d8dbb926895cec38ea, type: 3}
+  - cardsEvent: {fileID: 4900000, guid: 4a8c36ff2c18a4a898c3c0dc9170b39b, type: 3}
+  - cardsCounter: {fileID: 4900000, guid: fc47dd4f501a04c71b8e91af7dbc237e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

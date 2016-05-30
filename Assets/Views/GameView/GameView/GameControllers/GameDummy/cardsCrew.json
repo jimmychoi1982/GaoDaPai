@@ -1,0 +1,338 @@
+{
+	"cw21001005": {
+		"cardId": "cw21001005",
+		"cardGroupId": "cw21001005",
+		"cardTypeId": "2",
+		"cardCode": "ST01-005",
+		"countryCode": "JP",
+		"name": "ブライト・ノア",
+		"cardLimit": 20,
+		"packId": [
+			"st01"
+		],
+		"color": "blue",
+		"rarity": 1
+	},
+	"cw21001006": {
+		"cardId": "cw21001006",
+		"cardGroupId": "cw21001006",
+		"cardTypeId": "2",
+		"cardCode": "ST01-006",
+		"countryCode": "JP",
+		"name": "ミライ・ヤシマ",
+		"cardLimit": 20,
+		"packId": [
+			"st01"
+		],
+		"color": "blue",
+		"rarity": 1
+	},
+	"cw21001010": {
+		"cardId": "cw21001010",
+		"cardGroupId": "cw21001010",
+		"cardTypeId": "2",
+		"cardCode": "ST01-010",
+		"countryCode": "JP",
+		"name": "キシリア・ザビ",
+		"cardLimit": 20,
+		"packId": [
+			"st01"
+		],
+		"color": "green",
+		"rarity": 1
+	},
+	"cw21001011": {
+		"cardId": "cw21001011",
+		"cardGroupId": "cw21001011",
+		"cardTypeId": "2",
+		"cardCode": "ST01-011",
+		"countryCode": "JP",
+		"name": "フラナガン博士",
+		"cardLimit": 20,
+		"packId": [
+			"st01"
+		],
+		"color": "green",
+		"rarity": 1
+	},
+	"cw21002005": {
+		"cardId": "cw21002005",
+		"cardGroupId": "cw21002005",
+		"cardTypeId": "2",
+		"cardCode": "ST02-005",
+		"countryCode": "JP",
+		"name": "サイ・アーガイル",
+		"cardLimit": 20,
+		"packId": [
+			"st02"
+		],
+		"color": "yellow",
+		"rarity": 1
+	},
+	"cw21002006": {
+		"cardId": "cw21002006",
+		"cardGroupId": "cw21002006",
+		"cardTypeId": "2",
+		"cardCode": "ST02-006",
+		"countryCode": "JP",
+		"name": "フレイ・アルスター",
+		"cardLimit": 20,
+		"packId": [
+			"st02"
+		],
+		"color": "yellow",
+		"rarity": 1
+	},
+	"cw21002010": {
+		"cardId": "cw21002010",
+		"cardGroupId": "cw21002010",
+		"cardTypeId": "2",
+		"cardCode": "ST02-010",
+		"countryCode": "JP",
+		"name": "フレデリック・アデス",
+		"cardLimit": 20,
+		"packId": [
+			"st02"
+		],
+		"color": "black",
+		"rarity": 1
+	},
+	"cw21002011": {
+		"cardId": "cw21002011",
+		"cardGroupId": "cw21002011",
+		"cardTypeId": "2",
+		"cardCode": "ST02-011",
+		"countryCode": "JP",
+		"name": "パトリック・ザラ",
+		"cardLimit": 20,
+		"packId": [
+			"st02"
+		],
+		"color": "black",
+		"rarity": 1
+	},
+	"cw22001035": {
+		"cardId": "cw22001035",
+		"cardGroupId": "cw22001035",
+		"cardTypeId": "2",
+		"cardCode": "BT01-035",
+		"countryCode": "JP",
+		"name": "フラウ・ボゥ",
+		"cardLimit": 20,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1
+	},
+	"cw22001036": {
+		"cardId": "cw22001036",
+		"cardGroupId": "cw22001036",
+		"cardTypeId": "2",
+		"cardCode": "BT01-036",
+		"countryCode": "JP",
+		"name": "カツ・ハウィン",
+		"cardLimit": 20,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1
+	},
+	"cw22001037": {
+		"cardId": "cw22001037",
+		"cardGroupId": "cw22001037",
+		"cardTypeId": "2",
+		"cardCode": "BT01-037",
+		"countryCode": "JP",
+		"name": "マチルダ・アジャン",
+		"cardLimit": 20,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1
+	},
+	"cw22001037cr": {
+		"cardId": "cw22001037cr",
+		"cardGroupId": "cw22001037",
+		"cardTypeId": "2",
+		"cardCode": "BT01C037",
+		"countryCode": "JP",
+		"name": "マチルダ・アジャン",
+		"cardLimit": 20,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 100
+	},
+	"cw22001072": {
+		"cardId": "cw22001072",
+		"cardGroupId": "cw22001072",
+		"cardTypeId": "2",
+		"cardCode": "BT01-072",
+		"countryCode": "JP",
+		"name": "ギレン・ザビ",
+		"cardLimit": 20,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1
+	},
+	"cw22001072cr": {
+		"cardId": "cw22001072cr",
+		"cardGroupId": "cw22001072",
+		"cardTypeId": "2",
+		"cardCode": "BT01C072",
+		"countryCode": "JP",
+		"name": "ギレン・ザビ",
+		"cardLimit": 20,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 100
+	},
+	"cw22001073": {
+		"cardId": "cw22001073",
+		"cardGroupId": "cw22001073",
+		"cardTypeId": "2",
+		"cardCode": "BT01-073",
+		"countryCode": "JP",
+		"name": "アルフレッド・イズルハ",
+		"cardLimit": 20,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1
+	},
+	"cw22001074": {
+		"cardId": "cw22001074",
+		"cardGroupId": "cw22001074",
+		"cardTypeId": "2",
+		"cardCode": "BT01-074",
+		"countryCode": "JP",
+		"name": "ジオン・ズム・ダイクン",
+		"cardLimit": 20,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1
+	},
+	"cw22001109": {
+		"cardId": "cw22001109",
+		"cardGroupId": "cw22001109",
+		"cardTypeId": "2",
+		"cardCode": "BT01-109",
+		"countryCode": "JP",
+		"name": "シャクティ・カリン",
+		"cardLimit": 20,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1
+	},
+	"cw22001110": {
+		"cardId": "cw22001110",
+		"cardGroupId": "cw22001110",
+		"cardTypeId": "2",
+		"cardCode": "BT01-110",
+		"countryCode": "JP",
+		"name": "ラクス・クライン",
+		"cardLimit": 20,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1
+	},
+	"cw22001110cr": {
+		"cardId": "cw22001110cr",
+		"cardGroupId": "cw22001110",
+		"cardTypeId": "2",
+		"cardCode": "BT01C110",
+		"countryCode": "JP",
+		"name": "ラクス・クライン",
+		"cardLimit": 20,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 100
+	},
+	"cw22001111": {
+		"cardId": "cw22001111",
+		"cardGroupId": "cw22001111",
+		"cardTypeId": "2",
+		"cardCode": "BT01-111",
+		"countryCode": "JP",
+		"name": "マリュー・ラミアス",
+		"cardLimit": 20,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1
+	},
+	"cw22001146": {
+		"cardId": "cw22001146",
+		"cardGroupId": "cw22001146",
+		"cardTypeId": "2",
+		"cardCode": "BT01-146",
+		"countryCode": "JP",
+		"name": "ジャミトフ・ハイマン",
+		"cardLimit": 20,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1
+	},
+	"cw22001147": {
+		"cardId": "cw22001147",
+		"cardGroupId": "cw22001147",
+		"cardTypeId": "2",
+		"cardCode": "BT01-147",
+		"countryCode": "JP",
+		"name": "バスク・オム",
+		"cardLimit": 20,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1
+	},
+	"cw22001148": {
+		"cardId": "cw22001148",
+		"cardGroupId": "cw22001148",
+		"cardTypeId": "2",
+		"cardCode": "BT01-148",
+		"countryCode": "JP",
+		"name": "フォウ・ムラサメ",
+		"cardLimit": 20,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1
+	},
+	"cw22001148cr": {
+		"cardId": "cw22001148cr",
+		"cardGroupId": "cw22001148",
+		"cardTypeId": "2",
+		"cardCode": "BT01C148",
+		"countryCode": "JP",
+		"name": "フォウ・ムラサメ",
+		"cardLimit": 20,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 100
+	}
+}

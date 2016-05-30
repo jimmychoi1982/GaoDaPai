@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Deck_List
+  - Deck_Card
+  - Banner
+  - Shop_Pack
+  - MotherShip
+  - BattleContainer
+  - Card
+  - BGM
+  - Avatar_List
+  - Mothership_List
+  - UnitSleeve_List
+  - CharacterSleeve_List
+  - UnitCard_List
+  - EventCard_List
+  - CounterCard_List
+  - CrewCard_List
+  - PilotCard_List
+  - NormalGasha_List
+  - RareGasha_List
+  - Emblem_List
+  - Force_List
+  - Title_List
+  - TapEffect
+  - CommonDialog
+  - InheritingMother
+  - Steward
+  - Resident
+  - LoadingAnimation
+  - Live2D
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - SuperUI
+  - SuperUI_2
+  - LoadScreen
+  - TapEffect
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: SuperUI
+    uniqueID: 1065283985
+    locked: 0

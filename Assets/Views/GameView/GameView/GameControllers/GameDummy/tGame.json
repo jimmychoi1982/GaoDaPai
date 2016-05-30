@@ -1,0 +1,26 @@
+{
+	"gameId": "dummyGame",
+	"type": "dummy",
+	"players": [],
+
+	"playerData": {},
+	"playerReady": {},
+	"playerStarted": {},
+	"playerWinner": null,
+
+	"startingPlayer": "",
+	"currentTurn": "",
+	"turnStartTime": null,
+	"isFirstTurn": true,
+
+	"motherships": {},
+
+	"board": {},
+	"counters": {},
+	"drawnCards": {},
+
+	"gameHistory": [],
+	"actionQueue": [],
+	"actionStates": {},
+	"currentQuestion": null
+}

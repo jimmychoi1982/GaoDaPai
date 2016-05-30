@@ -1,0 +1,5203 @@
+{
+	"cw31001001": {
+		"cardId": "cw31001001",
+		"cardGroupId": "cw31001001",
+		"cardTypeId": "3",
+		"cardCode": "ST01-001",
+		"countryCode": "JP",
+		"name": "ガンタンク",
+		"cardLimit": 4,
+		"packId": [
+			"st01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"size": "M",
+		"atk": 1,
+		"def": 4,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			null,
+			null,
+			"bombardment",
+			""
+		],
+		"description": [
+			"【砲撃：1】 あなたのターン<br />このユニットを行動済にすることで、相手の母艦に1ダメージを与える。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"do1DamageEnemyMothershipMyTurnOnVoluntaryTapped",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw31001002": {
+		"cardId": "cw31001002",
+		"cardGroupId": "cw31001002",
+		"cardTypeId": "3",
+		"cardCode": "ST01-002",
+		"countryCode": "JP",
+		"name": "ガンキャノン",
+		"cardLimit": 4,
+		"packId": [
+			"st01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 5,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			null,
+			null,
+			"",
+			"defence"
+		],
+		"description": [
+			"出撃時<br />総コスト4以下の敵のユニット1機を行動済にする。",
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"immobiliseEnemyTargetIfTotalCost4AndBelowOnLaunch",
+			"preventTargetMyMothershipOnEnemyTurn",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw31001003": {
+		"cardId": "cw31001003",
+		"cardGroupId": "cw31001003",
+		"cardTypeId": "3",
+		"cardCode": "ST01-003",
+		"countryCode": "JP",
+		"name": "ガンダム（マグネットコーティング）",
+		"cardLimit": 4,
+		"packId": [
+			"st01"
+		],
+		"color": "blue",
+		"rarity": 4,
+		"size": "M",
+		"atk": 5,
+		"def": 6,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 2,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			"gundam",
+			null,
+			"",
+			"morale"
+		],
+		"description": [
+			"出撃時<br />未行動の敵のユニットの中から、右端と左端にいるユニットを行動済にする。",
+			"【士気：《連邦》+1】<br />他の《連邦》を持つ味方のユニット全てをATK+1する。"
+		],
+		"modelDesignation": "RX-78-2",
+		"effects": [
+			"immobiliseLeftMostRightMostEnemyUnitsOnLaunch",
+			"increaseMyOtherUnitsWithAttributeFederationAtk1OnMyTurn",
+			"increaseMyOtherUnitsWithAttributeFederationAtk1OnEnemyTurn",
+			"increaseMyOtherUnitsWithAttributeFederationAtk1OnLaunch",
+			"",
+			"",
+			""
+		]
+	},
+	"cw31001007": {
+		"cardId": "cw31001007",
+		"cardGroupId": "cw31001007",
+		"cardTypeId": "3",
+		"cardCode": "ST01-007",
+		"countryCode": "JP",
+		"name": "リック・ドム",
+		"cardLimit": 4,
+		"packId": [
+			"st01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "M",
+		"atk": 3,
+		"def": 2,
+		"cost": {
+			"neutral": 2,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"domu",
+			null,
+			"defence",
+			""
+		],
+		"description": [
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。",
+			"破壊時<br />あなたは1枚ドローする。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"preventTargetMyMothershipOnEnemyTurn",
+			"draw1CardOnThisDestroy",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw31001008": {
+		"cardId": "cw31001008",
+		"cardGroupId": "cw31001008",
+		"cardTypeId": "3",
+		"cardCode": "ST01-008",
+		"countryCode": "JP",
+		"name": "シャア専用ゲルググ",
+		"cardLimit": 4,
+		"packId": [
+			"st01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "M",
+		"atk": 5,
+		"def": 3,
+		"cost": {
+			"neutral": 4,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"gelgoog",
+			"chars",
+			"scramble",
+			""
+		],
+		"description": [
+			"【スクランブル：1】 あなたのターン<br />あなたが後攻のとき、手札にあるこのカードを無色コスト-1する。",
+			"出撃時<br />このターンの間、このユニットは敵のユニットとの戦闘によるダメージを受けない。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnDraw",
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnMyTurn",
+			"giveNullDamageOnThisAttackOnLaunch",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw31001009": {
+		"cardId": "cw31001009",
+		"cardGroupId": "cw31001009",
+		"cardTypeId": "3",
+		"cardCode": "ST01-009",
+		"countryCode": "JP",
+		"name": "エルメス",
+		"cardLimit": 4,
+		"packId": [
+			"st01"
+		],
+		"color": "green",
+		"rarity": 4,
+		"size": "L",
+		"atk": 7,
+		"def": 7,
+		"cost": {
+			"neutral": 5,
+			"green": 2,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"ma",
+			null,
+			"",
+			"bitToken"
+		],
+		"description": [
+			"【MA】<br />このユニットは、相手からの効果によるダメージと、パイロットが搭乗していない敵のユニットとの戦闘によるダメージを受けない。",
+			"【ビット：3】 出撃時<br />緑のSサイズの1/1のビット・ユニット・トークンを、このユニットの右隣に2機、左隣に1機出撃させる。"
+		],
+		"modelDesignation": "MAN-08",
+		"effects": [
+			"nullDamageIfAttackerHasNoPilotOnAttacked",
+			"launch3SSizeGreenAtk1Def1TokensOnLaunch",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001004": {
+		"cardId": "cw32001004",
+		"cardGroupId": "cw32001004",
+		"cardTypeId": "3",
+		"cardCode": "BT01-004",
+		"countryCode": "JP",
+		"name": "コア・ファイター",
+		"cardLimit": 4,
+		"packId": [
+			"st01",
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"size": "S",
+		"atk": 1,
+		"def": 2,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			"fighter",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"出撃時<br />総コスト3以下の敵のユニット1機を行動済にする。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"immobiliseEnemyTargetIfTotalCost3AndBelowOnLaunch",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001008": {
+		"cardId": "cw32001008",
+		"cardGroupId": "cw32001008",
+		"cardTypeId": "3",
+		"cardCode": "BT01-008",
+		"countryCode": "JP",
+		"name": "ジム",
+		"cardLimit": 4,
+		"packId": [
+			"st01",
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 2,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			"jimu",
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001038": {
+		"cardId": "cw32001038",
+		"cardGroupId": "cw32001038",
+		"cardTypeId": "3",
+		"cardCode": "BT01-038",
+		"countryCode": "JP",
+		"name": "ガトル",
+		"cardLimit": 4,
+		"packId": [
+			"st01",
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "S",
+		"atk": 1,
+		"def": 1,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"fighter",
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001043": {
+		"cardId": "cw32001043",
+		"cardGroupId": "cw32001043",
+		"cardTypeId": "3",
+		"cardCode": "BT01-043",
+		"countryCode": "JP",
+		"name": "ザクⅡF型",
+		"cardLimit": 4,
+		"packId": [
+			"st01",
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 2,
+		"cost": {
+			"neutral": 1,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"zaku",
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw31002001": {
+		"cardId": "cw31002001",
+		"cardGroupId": "cw31002001",
+		"cardTypeId": "3",
+		"cardCode": "ST02-001",
+		"countryCode": "JP",
+		"name": "スカイグラスパー",
+		"cardLimit": 4,
+		"packId": [
+			"st02"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"size": "S",
+		"atk": 1,
+		"def": 2,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"alliance",
+			"fighter",
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw31002002": {
+		"cardId": "cw31002002",
+		"cardGroupId": "cw31002002",
+		"cardTypeId": "3",
+		"cardCode": "ST02-002",
+		"countryCode": "JP",
+		"name": "ストライクガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"st02"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"size": "M",
+		"atk": 4,
+		"def": 4,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"alliance",
+			"gundam",
+			null,
+			"",
+			"defence"
+		],
+		"description": [
+			"出撃時<br />敵のユニット1機に3ダメージを与える。",
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"do3DamageToEnemyTargetOnLaunch",
+			"preventTargetMyMothershipOnEnemyTurn",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw31002003": {
+		"cardId": "cw31002003",
+		"cardGroupId": "cw31002003",
+		"cardTypeId": "3",
+		"cardCode": "ST02-003",
+		"countryCode": "JP",
+		"name": "フリーダムガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"st02"
+		],
+		"color": "yellow",
+		"rarity": 4,
+		"size": "M",
+		"atk": 7,
+		"def": 6,
+		"cost": {
+			"neutral": 5,
+			"green": 0,
+			"blue": 0,
+			"yellow": 2,
+			"black": 0
+		},
+		"characteristicId": [
+			"orb",
+			"gundam",
+			null,
+			"",
+			"armor"
+		],
+		"description": [
+			"出撃時<br />敵のユニット全てに3ダメージを与える。",
+			"【装甲】 相手のターン<br />未行動のこのユニットが相手からのダメージによって破壊されるとき、そのダメージを受けないかわりにこのユニットを行動済にする。"
+		],
+		"modelDesignation": "ZGMF-X10A",
+		"effects": [
+			"do3DamageToAllEnemyUnitsOnLaunch",
+			"nullDamageThenImmobiliseIfNotImmobilisedOnDestroy",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw31002007": {
+		"cardId": "cw31002007",
+		"cardGroupId": "cw31002007",
+		"cardTypeId": "3",
+		"cardCode": "ST02-007",
+		"countryCode": "JP",
+		"name": "ザウート",
+		"cardLimit": 4,
+		"packId": [
+			"st02"
+		],
+		"color": "black",
+		"rarity": 1,
+		"size": "M",
+		"atk": 1,
+		"def": 3,
+		"cost": {
+			"neutral": 0,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 2
+		},
+		"characteristicId": [
+			"zaft",
+			null,
+			null,
+			"variable",
+			"defence"
+		],
+		"description": [
+			"【可変】 あなたのターン<br />このユニットに記述されているATKとDEFを入れ替える。",
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"swapThisUnitAtkDefOnMyTurn",
+			"preventTargetMyMothershipOnEnemyTurn",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw31002008": {
+		"cardId": "cw31002008",
+		"cardGroupId": "cw31002008",
+		"cardTypeId": "3",
+		"cardCode": "ST02-008",
+		"countryCode": "JP",
+		"name": "ラゴゥ",
+		"cardLimit": 4,
+		"packId": [
+			"st02"
+		],
+		"color": "black",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 4,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"zaft",
+			null,
+			null,
+			"scramble",
+			""
+		],
+		"description": [
+			"【スクランブル：1】 あなたのターン<br />あなたが後攻のとき、手札にあるこのカードを無色コスト-1する。",
+			"出撃時<br />このターンの間、敵のユニット1機をATK-2/DEF-2する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnDraw",
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnMyTurn",
+			"reduceEnemyTargetAtk2Def2OnLaunch",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw31002009": {
+		"cardId": "cw31002009",
+		"cardGroupId": "cw31002009",
+		"cardTypeId": "3",
+		"cardCode": "ST02-009",
+		"countryCode": "JP",
+		"name": "イージスガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"st02"
+		],
+		"color": "black",
+		"rarity": 4,
+		"size": "M",
+		"atk": 4,
+		"def": 7,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 2
+		},
+		"characteristicId": [
+			"zaft",
+			"gundam",
+			null,
+			"variable",
+			""
+		],
+		"description": [
+			"【可変】 あなたのターン<br />このユニットに記述されているATKとDEFを入れ替える。",
+			"相手のターン<br />ATK2以下の敵のユニットは攻撃できない。"
+		],
+		"modelDesignation": "GAT-X303",
+		"effects": [
+			"swapThisUnitAtkDefOnMyTurn",
+			"preventEnemyAttackIfEnemyUnitAtk2LessOnEnemyTurn",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001082": {
+		"cardId": "cw32001082",
+		"cardGroupId": "cw32001082",
+		"cardTypeId": "3",
+		"cardCode": "BT01-082",
+		"countryCode": "JP",
+		"name": "ストライクダガー",
+		"cardLimit": 4,
+		"packId": [
+			"st02",
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"size": "M",
+		"atk": 3,
+		"def": 2,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"alliance",
+			"dagger",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"攻撃時<br />このユニットが戦闘によるダメージで敵のユニットを破壊したとき、相手の母艦に2ダメージを与える。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"do2DamageEnemyMothershipIfTargetDestroyedOnThisAttack",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001085": {
+		"cardId": "cw32001085",
+		"cardGroupId": "cw32001085",
+		"cardTypeId": "3",
+		"cardCode": "BT01-085",
+		"countryCode": "JP",
+		"name": "M1アストレイ",
+		"cardLimit": 4,
+		"packId": [
+			"st02",
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 4,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"orb",
+			"astray",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"あなたのターン<br />このユニットの両隣にいる味方のユニットをATK+1する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseAdjacentUnitsAtk1OnMyTurn",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001113": {
+		"cardId": "cw32001113",
+		"cardGroupId": "cw32001113",
+		"cardTypeId": "3",
+		"cardCode": "BT01-113",
+		"countryCode": "JP",
+		"name": "ジン",
+		"cardLimit": 4,
+		"packId": [
+			"st02",
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"size": "M",
+		"atk": 1,
+		"def": 2,
+		"cost": {
+			"neutral": 0,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"zaft",
+			"jin",
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001119": {
+		"cardId": "cw32001119",
+		"cardGroupId": "cw32001119",
+		"cardTypeId": "3",
+		"cardCode": "BT01-119",
+		"countryCode": "JP",
+		"name": "ディン",
+		"cardLimit": 4,
+		"packId": [
+			"st02",
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 2,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zaft",
+			null,
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001001": {
+		"cardId": "cw32001001",
+		"cardGroupId": "cw32001001",
+		"cardTypeId": "3",
+		"cardCode": "BT01-001",
+		"countryCode": "JP",
+		"name": "ボール",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"size": "S",
+		"atk": 0,
+		"def": 3,
+		"cost": {
+			"neutral": 0,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			null,
+			null,
+			"defence",
+			""
+		],
+		"description": [
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"preventTargetMyMothershipOnEnemyTurn",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001002": {
+		"cardId": "cw32001002",
+		"cardGroupId": "cw32001002",
+		"cardTypeId": "3",
+		"cardCode": "BT01-002",
+		"countryCode": "JP",
+		"name": "セイバーフィッシュ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"size": "S",
+		"atk": 1,
+		"def": 2,
+		"cost": {
+			"neutral": 0,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			"fighter",
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001003": {
+		"cardId": "cw32001003",
+		"cardGroupId": "cw32001003",
+		"cardTypeId": "3",
+		"cardCode": "BT01-003",
+		"countryCode": "JP",
+		"name": "ガンタンク初期型",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"size": "M",
+		"atk": 0,
+		"def": 3,
+		"cost": {
+			"neutral": 0,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			null,
+			null,
+			"bombardment",
+			""
+		],
+		"description": [
+			"【砲撃：1】 あなたのターン<br />このユニットを行動済にすることで、相手の母艦に1ダメージを与える。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"do1DamageEnemyMothershipMyTurnOnVoluntaryTapped",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001005": {
+		"cardId": "cw32001005",
+		"cardGroupId": "cw32001005",
+		"cardTypeId": "3",
+		"cardCode": "BT01-005",
+		"countryCode": "JP",
+		"name": "陸戦型ジム（100mmマシンガン装備）",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"size": "M",
+		"atk": 1,
+		"def": 3,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			"jimu",
+			"ground",
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001006": {
+		"cardId": "cw32001006",
+		"cardGroupId": "cw32001006",
+		"cardTypeId": "3",
+		"cardCode": "BT01-006",
+		"countryCode": "JP",
+		"name": "ガンタンクⅡ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"size": "M",
+		"atk": 0,
+		"def": 5,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			null,
+			null,
+			"bombardment",
+			""
+		],
+		"description": [
+			"【砲撃：1】 あなたのターン<br />このユニットを行動済にすることで、相手の母艦に1ダメージを与える。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"do1DamageEnemyMothershipMyTurnOnVoluntaryTapped",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001007": {
+		"cardId": "cw32001007",
+		"cardGroupId": "cw32001007",
+		"cardTypeId": "3",
+		"cardCode": "BT01-007",
+		"countryCode": "JP",
+		"name": "リック・ディアス",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"size": "M",
+		"atk": 1,
+		"def": 2,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"aeug",
+			null,
+			null,
+			"counterAttack",
+			""
+		],
+		"description": [
+			"【反撃：2】 相手のターン<br />このユニットをATK+2/DEF+2する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseThisUnitAtk2Def2OnEnemyTurn",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001009": {
+		"cardId": "cw32001009",
+		"cardGroupId": "cw32001009",
+		"cardTypeId": "3",
+		"cardCode": "BT01-009",
+		"countryCode": "JP",
+		"name": "ジム・キャノン",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 4,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			"jimu",
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001010": {
+		"cardId": "cw32001010",
+		"cardGroupId": "cw32001010",
+		"cardTypeId": "3",
+		"cardCode": "BT01-010",
+		"countryCode": "JP",
+		"name": "陸戦型ガンダム（180mmキャノン装備）",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 3,
+		"size": "M",
+		"atk": 1,
+		"def": 5,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 2,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			"gundam",
+			"ground",
+			"bombardment",
+			"defence"
+		],
+		"description": [
+			"【砲撃：2】 あなたのターン<br />このユニットを行動済にすることで、相手の母艦に2ダメージを与える。",
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。"
+		],
+		"modelDesignation": "RX-79[G]",
+		"effects": [
+			"do2DamageEnemyMothershipMyTurnOnVoluntaryTapped",
+			"preventTargetMyMothershipOnEnemyTurn",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001011": {
+		"cardId": "cw32001011",
+		"cardGroupId": "cw32001011",
+		"cardTypeId": "3",
+		"cardCode": "BT01-011",
+		"countryCode": "JP",
+		"name": "ネモ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 2,
+		"size": "M",
+		"atk": 1,
+		"def": 6,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 2,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			null,
+			null,
+			"defence",
+			""
+		],
+		"description": [
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"preventTargetMyMothershipOnEnemyTurn",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001012": {
+		"cardId": "cw32001012",
+		"cardGroupId": "cw32001012",
+		"cardTypeId": "3",
+		"cardCode": "BT01-012",
+		"countryCode": "JP",
+		"name": "ガンキャノン",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"size": "M",
+		"atk": 3,
+		"def": 5,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			null,
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001013": {
+		"cardId": "cw32001013",
+		"cardGroupId": "cw32001013",
+		"cardTypeId": "3",
+		"cardCode": "BT01-013",
+		"countryCode": "JP",
+		"name": "ジム・コマンド",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 5,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			"jimu",
+			null,
+			"scramble",
+			""
+		],
+		"description": [
+			"【スクランブル：1】 あなたのターン<br />あなたが後攻のとき、手札にあるこのカードを無色コスト-1する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnDraw",
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnMyTurn",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001014": {
+		"cardId": "cw32001014",
+		"cardGroupId": "cw32001014",
+		"cardTypeId": "3",
+		"cardCode": "BT01-014",
+		"countryCode": "JP",
+		"name": "ガンダムMk-Ⅱ（エゥーゴ仕様）",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 2,
+		"size": "M",
+		"atk": 3,
+		"def": 3,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"aeug",
+			"gundam",
+			null,
+			"counterAttack",
+			""
+		],
+		"description": [
+			"【反撃：2】 相手のターン<br />このユニットをATK+2/DEF+2する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseThisUnitAtk2Def2OnEnemyTurn",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001015": {
+		"cardId": "cw32001015",
+		"cardGroupId": "cw32001015",
+		"cardTypeId": "3",
+		"cardCode": "BT01-015",
+		"countryCode": "JP",
+		"name": "ガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 2,
+		"size": "M",
+		"atk": 3,
+		"def": 4,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 2,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			"gundam",
+			null,
+			"morale",
+			""
+		],
+		"description": [
+			"【士気：《連邦》+1】<br />他の《連邦》を持つ味方のユニット全てをATK+1する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseMyOtherUnitsWithAttributeFederationAtk1OnMyTurn",
+			"increaseMyOtherUnitsWithAttributeFederationAtk1OnEnemyTurn",
+			"increaseMyOtherUnitsWithAttributeFederationAtk1OnLaunch",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001016": {
+		"cardId": "cw32001016",
+		"cardGroupId": "cw32001016",
+		"cardTypeId": "3",
+		"cardCode": "BT01-016",
+		"countryCode": "JP",
+		"name": "ガンダム試作1号機ゼフィランサス",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 3,
+		"size": "M",
+		"atk": 3,
+		"def": 4,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 2,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			"gundam",
+			"gp",
+			"defence",
+			""
+		],
+		"description": [
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。",
+			"相手のターン<br />【防衛】を持つ味方のユニット全ては、「敵のユニット1機」を対象とした敵のユニットの効果を受けない。"
+		],
+		"modelDesignation": "RX-78GP01",
+		"effects": [
+			"preventTargetMyMothershipOnEnemyTurn",
+			"givePreventEffectTargettingIfSingleTargetToAllMyUnitsWithDefenceOnEnemyTurn",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001017": {
+		"cardId": "cw32001017",
+		"cardGroupId": "cw32001017",
+		"cardTypeId": "3",
+		"cardCode": "BT01-017",
+		"countryCode": "JP",
+		"name": "百式",
+		"cardLimit": 4,
+		"packId": [
+			"pr-u",
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 2,
+		"size": "M",
+		"atk": 4,
+		"def": 4,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"aeug",
+			null,
+			null,
+			"defence",
+			"counterAttack"
+		],
+		"description": [
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。",
+			"【反撃：2】 相手のターン<br />このユニットをATK+2/DEF+2する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"preventTargetMyMothershipOnEnemyTurn",
+			"increaseThisUnitAtk2Def2OnEnemyTurn",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001018": {
+		"cardId": "cw32001018",
+		"cardGroupId": "cw32001018",
+		"cardTypeId": "3",
+		"cardCode": "BT01-018",
+		"countryCode": "JP",
+		"name": "ジェスタ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"size": "M",
+		"atk": 4,
+		"def": 6,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			null,
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001019": {
+		"cardId": "cw32001019",
+		"cardGroupId": "cw32001019",
+		"cardTypeId": "3",
+		"cardCode": "BT01-019",
+		"countryCode": "JP",
+		"name": "ガンダムNT-1 アレックス",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 3,
+		"size": "M",
+		"atk": 4,
+		"def": 5,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 2,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			"gundam",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"このユニットに《NT》を持つパイロットが搭乗していないとき、このユニットは相手の母艦を攻撃できない。",
+			"攻撃時<br />未行動の敵のユニットの中から、ATKが最も高い敵のユニット全てを行動済にする。"
+		],
+		"modelDesignation": "RX-78NT-1",
+		"effects": [
+			"preventAttackEnemyMothershipIfNoNtPilotOnThisAttack",
+			"immobiliseAllHighestAtkEnemyUnitsOnThisAttack",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001020": {
+		"cardId": "cw32001020",
+		"cardGroupId": "cw32001020",
+		"cardTypeId": "3",
+		"cardCode": "BT01-020",
+		"countryCode": "JP",
+		"name": "ユニコーンガンダム（ユニコーンモード）",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 2,
+		"size": "M",
+		"atk": 4,
+		"def": 4,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 2,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			"gundam",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"出撃時<br />Mサイズの敵のユニット1機を行動済にする。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"immobilise1EnemyMSizeTargetOnLaunch",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001021": {
+		"cardId": "cw32001021",
+		"cardGroupId": "cw32001021",
+		"cardTypeId": "3",
+		"cardCode": "BT01-021",
+		"countryCode": "JP",
+		"name": "デルタプラス",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"size": "M",
+		"atk": 6,
+		"def": 6,
+		"cost": {
+			"neutral": 5,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			null,
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001022": {
+		"cardId": "cw32001022",
+		"cardGroupId": "cw32001022",
+		"cardTypeId": "3",
+		"cardCode": "BT01-022",
+		"countryCode": "JP",
+		"name": "G-3ガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 3,
+		"size": "M",
+		"atk": 5,
+		"def": 6,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 2,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			"gundam",
+			null,
+			"scramble",
+			"counterAttack"
+		],
+		"description": [
+			"【スクランブル：1】 あなたのターン<br />あなたが後攻のとき、手札にあるこのカードを無色コスト-1する。",
+			"【反撃：3】 相手のターン<br />このユニットをATK+3/DEF+3する。"
+		],
+		"modelDesignation": "RX-78-3",
+		"effects": [
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnDraw",
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnMyTurn",
+			"increaseThisUnitAtk3Def3OnEnemyTurn",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001023": {
+		"cardId": "cw32001023",
+		"cardGroupId": "cw32001023",
+		"cardTypeId": "3",
+		"cardCode": "BT01-023",
+		"countryCode": "JP",
+		"name": "Ｚガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 3,
+		"size": "M",
+		"atk": 5,
+		"def": 6,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 3,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"aeug",
+			"gundam",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"出撃時<br />パイロットが搭乗している敵のユニット1機を行動済にする。",
+			"あなたのターン<br />【反撃】を持つ味方のユニット全てをATK+3/DEF+3する。"
+		],
+		"modelDesignation": "MSZ-006",
+		"effects": [
+			"immobiliseEnemyTargetWithPilotOnLaunch",
+			"increaseAllMyUnitsWithCounterAttackAtk3Def3OnMyTurn",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001024": {
+		"cardId": "cw32001024",
+		"cardGroupId": "cw32001024",
+		"cardTypeId": "3",
+		"cardCode": "BT01-024",
+		"countryCode": "JP",
+		"name": "ユニコーンガンダム（デストロイモード）",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 4,
+		"size": "M",
+		"atk": 7,
+		"def": 7,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 3,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			"gundam",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"出撃時<br />未行動の敵のユニットの中から、総コストが最も高い敵のユニット全てを行動済にする。このユニットに《NT》を持つパイロットが搭乗しているとき、この効果は攻撃時にも発揮する。",
+			"攻撃時<br />このユニットが戦闘によるダメージを敵のユニットに与えたとき、そのダメージに等しいダメージを、他の行動済の敵のユニット全てに与える。"
+		],
+		"modelDesignation": "RX-0",
+		"effects": [
+			"immobiliseAllHighestTotalCostEnemyUnitsOnLaunch",
+			"immobiliseAllHighestTotalCostEnemyUnitsIfHaveNtPilotOnThisAttack",
+			"duplicateActualDamageToAllTappedEnemyUnitsOnThisAttack",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001024c": {
+		"cardId": "cw32001024c",
+		"cardGroupId": "cw32001024",
+		"cardTypeId": "3",
+		"cardCode": "BT01C024",
+		"countryCode": "JP",
+		"name": "ユニコーンガンダム（デストロイモード）",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 100,
+		"size": "M",
+		"atk": 7,
+		"def": 7,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 3,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			"gundam",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"出撃時<br />未行動の敵のユニットの中から、総コストが最も高い敵のユニット全てを行動済にする。このユニットに《NT》を持つパイロットが搭乗しているとき、この効果は攻撃時にも発揮する。",
+			"攻撃時<br />このユニットが戦闘によるダメージを敵のユニットに与えたとき、そのダメージに等しいダメージを、他の行動済の敵のユニット全てに与える。"
+		],
+		"modelDesignation": "RX-0",
+		"effects": [
+			"immobiliseAllHighestTotalCostEnemyUnitsOnLaunch",
+			"immobiliseAllHighestTotalCostEnemyUnitsIfHaveNtPilotOnThisAttack",
+			"duplicateActualDamageToAllTappedEnemyUnitsOnThisAttack",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001039": {
+		"cardId": "cw32001039",
+		"cardGroupId": "cw32001039",
+		"cardTypeId": "3",
+		"cardCode": "BT01-039",
+		"countryCode": "JP",
+		"name": "アッガイ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 2,
+		"size": "M",
+		"atk": 0,
+		"def": 2,
+		"cost": {
+			"neutral": 0,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"amphibious",
+			null,
+			"underWaterAttack",
+			""
+		],
+		"description": [
+			"【水中奇襲：3】 出撃時<br />このターンの間、このユニットをATK+3する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseThisUnitAtk3OnLaunch",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001040": {
+		"cardId": "cw32001040",
+		"cardGroupId": "cw32001040",
+		"cardTypeId": "3",
+		"cardCode": "BT01-040",
+		"countryCode": "JP",
+		"name": "マゼラアタック",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "S",
+		"atk": 2,
+		"def": 1,
+		"cost": {
+			"neutral": 0,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"magella-attack",
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001041": {
+		"cardId": "cw32001041",
+		"cardGroupId": "cw32001041",
+		"cardTypeId": "3",
+		"cardCode": "BT01-041",
+		"countryCode": "JP",
+		"name": "ザク・タンク",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "M",
+		"atk": 1,
+		"def": 1,
+		"cost": {
+			"neutral": 0,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"zaku",
+			null,
+			"defence",
+			""
+		],
+		"description": [
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"preventTargetMyMothershipOnEnemyTurn",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001042": {
+		"cardId": "cw32001042",
+		"cardGroupId": "cw32001042",
+		"cardTypeId": "3",
+		"cardCode": "BT01-042",
+		"countryCode": "JP",
+		"name": "ザクⅠ（バズーカ装備）",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 2,
+		"size": "M",
+		"atk": 1,
+		"def": 1,
+		"cost": {
+			"neutral": 1,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"zaku",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"破壊時<br />あなたは1枚ドローする。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"draw1CardOnThisDestroy",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001044": {
+		"cardId": "cw32001044",
+		"cardGroupId": "cw32001044",
+		"cardTypeId": "3",
+		"cardCode": "BT01-044",
+		"countryCode": "JP",
+		"name": "ザク・デザートタイプ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 1,
+		"cost": {
+			"neutral": 1,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"zaku",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"相手のターン<br />このユニットが戦闘によるダメージを敵のユニットに与えたとき、その敵のユニットを破壊する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"destroyAttackerOnThisAttacked",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001045": {
+		"cardId": "cw32001045",
+		"cardGroupId": "cw32001045",
+		"cardTypeId": "3",
+		"cardCode": "BT01-045",
+		"countryCode": "JP",
+		"name": "ザクⅡ改",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 1,
+		"cost": {
+			"neutral": 1,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"zaku",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"出撃時<br />このターンの間、このユニットは敵のユニットとの戦闘によるダメージを受けない。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"giveNullDamageOnThisAttackOnLaunch",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001046": {
+		"cardId": "cw32001046",
+		"cardGroupId": "cw32001046",
+		"cardTypeId": "3",
+		"cardCode": "BT01-046",
+		"countryCode": "JP",
+		"name": "ジュアッグ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "M",
+		"atk": 1,
+		"def": 2,
+		"cost": {
+			"neutral": 1,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"amphibious",
+			null,
+			"underWaterAttack",
+			""
+		],
+		"description": [
+			"【水中奇襲：2】 出撃時<br />このターンの間、このユニットをATK+2する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseThisUnitAtk2OnLaunch",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001047": {
+		"cardId": "cw32001047",
+		"cardGroupId": "cw32001047",
+		"cardTypeId": "3",
+		"cardCode": "BT01-047",
+		"countryCode": "JP",
+		"name": "グフ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 2,
+		"size": "M",
+		"atk": 3,
+		"def": 2,
+		"cost": {
+			"neutral": 2,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"gouf",
+			null,
+			"morale",
+			""
+		],
+		"description": [
+			"【士気：《ザク》+1】<br />他の《ザク》を持つ味方のユニット全てをATK+1する。",
+			"【士気：《マゼラアタック》+1】<br />他の《マゼラアタック》を持つ味方のユニット全てをATK+1する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseMyOtherUnitsWithAttributeZakuAtk1OnMyTurn",
+			"increaseMyOtherUnitsWithAttributeZakuAtk1OnEnemyTurn",
+			"increaseMyOtherUnitsWithAttributeZakuAtk1OnLaunch",
+			"increaseMyOtherUnitsWithAttributeMagellaAttackAtk1OnEnemyTurn",
+			"increaseMyOtherUnitsWithAttributeMagellaAttackAtk1OnMyTurn",
+			"increaseMyOtherUnitsWithAttributeMagellaAttackAtk1OnEnemyTurn",
+			"increaseMyOtherUnitsWithAttributeMagellaAttackAtk1OnLaunch"
+		]
+	},
+	"cw32001048": {
+		"cardId": "cw32001048",
+		"cardGroupId": "cw32001048",
+		"cardTypeId": "3",
+		"cardCode": "BT01-048",
+		"countryCode": "JP",
+		"name": "ザク・マリンタイプ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 3,
+		"cost": {
+			"neutral": 2,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"zaku",
+			"amphibious",
+			"underWaterAttack",
+			""
+		],
+		"description": [
+			"【水中奇襲：2】 出撃時<br />このターンの間、このユニットをATK+2する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseThisUnitAtk2OnLaunch",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001049": {
+		"cardId": "cw32001049",
+		"cardGroupId": "cw32001049",
+		"cardTypeId": "3",
+		"cardCode": "BT01-049",
+		"countryCode": "JP",
+		"name": "ドラッツェ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "M",
+		"atk": 3,
+		"def": 3,
+		"cost": {
+			"neutral": 2,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"delaz-fleet",
+			null,
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001050": {
+		"cardId": "cw32001050",
+		"cardGroupId": "cw32001050",
+		"cardTypeId": "3",
+		"cardCode": "BT01-050",
+		"countryCode": "JP",
+		"name": "ザクⅡJ型（マゼラトップ砲装備）",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "M",
+		"atk": 3,
+		"def": 2,
+		"cost": {
+			"neutral": 1,
+			"green": 2,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"zaku",
+			null,
+			"scramble",
+			""
+		],
+		"description": [
+			"【スクランブル：1】 あなたのターン<br />あなたが後攻のとき、手札にあるこのカードを無色コスト-1する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnDraw",
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnMyTurn",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001051": {
+		"cardId": "cw32001051",
+		"cardGroupId": "cw32001051",
+		"cardTypeId": "3",
+		"cardCode": "BT01-051",
+		"countryCode": "JP",
+		"name": "グフ・カスタム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 3,
+		"size": "M",
+		"atk": 3,
+		"def": 2,
+		"cost": {
+			"neutral": 1,
+			"green": 2,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"gouf",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"このカードは、あなたのブリッジにいる行動済のパイロットカードも搭乗できる。",
+			"攻撃時<br />このユニットは敵のユニットとの戦闘によるダメージを受けない。"
+		],
+		"modelDesignation": "MS-07B-3",
+		"effects": [
+			"allowsImmobilisedPilotToBoard",
+			"nullDamageOnThisAttack",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001052": {
+		"cardId": "cw32001052",
+		"cardGroupId": "cw32001052",
+		"cardTypeId": "3",
+		"cardCode": "BT01-052",
+		"countryCode": "JP",
+		"name": "ゴッグ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "M",
+		"atk": 4,
+		"def": 4,
+		"cost": {
+			"neutral": 3,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"amphibious",
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001053": {
+		"cardId": "cw32001053",
+		"cardGroupId": "cw32001053",
+		"cardTypeId": "3",
+		"cardCode": "BT01-053",
+		"countryCode": "JP",
+		"name": "ハイゴッグ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "M",
+		"atk": 3,
+		"def": 4,
+		"cost": {
+			"neutral": 3,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"amphibious",
+			null,
+			"underWaterAttack",
+			""
+		],
+		"description": [
+			"【水中奇襲：2】 出撃時<br />このターンの間、このユニットをATK+2する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseThisUnitAtk2OnLaunch",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001054": {
+		"cardId": "cw32001054",
+		"cardGroupId": "cw32001054",
+		"cardTypeId": "3",
+		"cardCode": "BT01-054",
+		"countryCode": "JP",
+		"name": "ズゴック",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 2,
+		"size": "M",
+		"atk": 4,
+		"def": 3,
+		"cost": {
+			"neutral": 2,
+			"green": 2,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"amphibious",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"出撃時<br />あなたは1枚ドローする。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"draw1CardOnLaunch",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001055": {
+		"cardId": "cw32001055",
+		"cardGroupId": "cw32001055",
+		"cardTypeId": "3",
+		"cardCode": "BT01-055",
+		"countryCode": "JP",
+		"name": "ドム（ジャイアント・バズ装備）",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 2,
+		"size": "M",
+		"atk": 4,
+		"def": 3,
+		"cost": {
+			"neutral": 2,
+			"green": 2,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"domu",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"攻撃時<br />このユニットを、他の《ドム》を持つ味方のユニット1機につきATK+1する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseDamageByNumberOfMyDomuUnitsBeforeAttack",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001056": {
+		"cardId": "cw32001056",
+		"cardGroupId": "cw32001056",
+		"cardTypeId": "3",
+		"cardCode": "BT01-056",
+		"countryCode": "JP",
+		"name": "シャア専用ザクⅡ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 4,
+		"size": "M",
+		"atk": 4,
+		"def": 2,
+		"cost": {
+			"neutral": 2,
+			"green": 2,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"zaku",
+			"chars",
+			"morale",
+			""
+		],
+		"description": [
+			"【士気：《ジオン》+1】<br />他の《ジオン》を持つ味方のユニット全てをATK+1する。",
+			"破壊時<br />相手のターンのとき、あなたは3枚ドローする。"
+		],
+		"modelDesignation": "MS-06S",
+		"effects": [
+			"increaseMyOtherUnitsWithAttributeZionAtk1OnMyTurn",
+			"increaseMyOtherUnitsWithAttributeZionAtk1OnEnemyTurn",
+			"increaseMyOtherUnitsWithAttributeZionAtk1OnLaunch",
+			"giveDraw3CardOnThisDestroyOnEnemyTurn",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001056cr": {
+		"cardId": "cw32001056cr",
+		"cardGroupId": "cw32001056",
+		"cardTypeId": "3",
+		"cardCode": "BT01C056",
+		"countryCode": "JP",
+		"name": "シャア専用ザクⅡ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 100,
+		"size": "M",
+		"atk": 4,
+		"def": 2,
+		"cost": {
+			"neutral": 2,
+			"green": 2,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"zaku",
+			"chars",
+			"morale",
+			""
+		],
+		"description": [
+			"【士気：《ジオン》+1】<br />他の《ジオン》を持つ味方のユニット全てをATK+1する。",
+			"破壊時<br />相手のターンのとき、あなたは3枚ドローする。"
+		],
+		"modelDesignation": "MS-06S",
+		"effects": [
+			"increaseMyOtherUnitsWithAttributeZionAtk1OnMyTurn",
+			"increaseMyOtherUnitsWithAttributeZionAtk1OnEnemyTurn",
+			"increaseMyOtherUnitsWithAttributeZionAtk1OnLaunch",
+			"giveDraw3CardOnThisDestroyOnEnemyTurn",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001057": {
+		"cardId": "cw32001057",
+		"cardGroupId": "cw32001057",
+		"cardTypeId": "3",
+		"cardCode": "BT01-057",
+		"countryCode": "JP",
+		"name": "ゲルググ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "M",
+		"atk": 5,
+		"def": 5,
+		"cost": {
+			"neutral": 4,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			null,
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001058": {
+		"cardId": "cw32001058",
+		"cardGroupId": "cw32001058",
+		"cardTypeId": "3",
+		"cardCode": "BT01-058",
+		"countryCode": "JP",
+		"name": "ゲルググM",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 3,
+		"size": "M",
+		"atk": 5,
+		"def": 3,
+		"cost": {
+			"neutral": 3,
+			"green": 2,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"delaz-fleet",
+			null,
+			null,
+			"",
+			"defence"
+		],
+		"description": [
+			"攻撃時<br />このユニットは敵のユニットとの戦闘によるダメージを受けない。",
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。"
+		],
+		"modelDesignation": "MS-14F",
+		"effects": [
+			"nullDamageOnThisAttack",
+			"preventTargetMyMothershipOnEnemyTurn",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001059": {
+		"cardId": "cw32001059",
+		"cardGroupId": "cw32001059",
+		"cardTypeId": "3",
+		"cardCode": "BT01-059",
+		"countryCode": "JP",
+		"name": "ガンダム試作2号機サイサリス",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 3,
+		"size": "M",
+		"atk": 4,
+		"def": 5,
+		"cost": {
+			"neutral": 3,
+			"green": 2,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"delaz-fleet",
+			"gundam",
+			"gp",
+			"",
+			""
+		],
+		"description": [
+			"このユニットを、セットされているあなたのカウンターカード1枚につきATK+1する。",
+			"出撃時<br />このターンの間、あなたの手札にあるカウンターカードをセットするコストを0にする。"
+		],
+		"modelDesignation": "RX-78GP02A",
+		"effects": [
+			"increaseThisUnitAtk1ForEveryCounterOnLaunch",
+			"increaseThisUnitAtk1ForEveryCounterOnMyTurn",
+			"increaseThisUnitAtk1ForEveryCounterOnEnemyTurn",
+			"increaseThisUnitAtk1OnCounterPlaced",
+			"reduceThisUnitAtk1OnCounterTriggered",
+			"reduceCostTo0ForCounterCardsInHandOnLaunch",
+			""
+		]
+	},
+	"cw32001060": {
+		"cardId": "cw32001060",
+		"cardGroupId": "cw32001060",
+		"cardTypeId": "3",
+		"cardCode": "BT01-060",
+		"countryCode": "JP",
+		"name": "ギャン",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 3,
+		"size": "M",
+		"atk": 5,
+		"def": 4,
+		"cost": {
+			"neutral": 4,
+			"green": 2,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			null,
+			null,
+			"scramble",
+			""
+		],
+		"description": [
+			"【スクランブル：1】 あなたのターン<br />あなたが後攻のとき、手札にあるこのカードを無色コスト-1する。",
+			"攻撃時<br />このユニットが戦闘によるダメージを敵のユニットに与えたとき、その敵のユニットを破壊する。"
+		],
+		"modelDesignation": "YMS-15",
+		"effects": [
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnDraw",
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnMyTurn",
+			"destroyAttackedUnitOnAttack",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001061": {
+		"cardId": "cw32001061",
+		"cardGroupId": "cw32001061",
+		"cardTypeId": "3",
+		"cardCode": "BT01-061",
+		"countryCode": "JP",
+		"name": "ケンプファー",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 3,
+		"size": "M",
+		"atk": 6,
+		"def": 5,
+		"cost": {
+			"neutral": 3,
+			"green": 3,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			null,
+			null,
+			"",
+			""
+		],
+		"description": [
+			"あなたのターン<br />あなたの手札にある緑のユニットカード全てを無色コスト-3する。"
+		],
+		"modelDesignation": "MS-18E",
+		"effects": [
+			"reduceNeutralCost3ForMyGreenUnitCardsOnLaunch",
+			"reduceNeutralCost3ForMyGreenUnitCardsOnMyTurn",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001075": {
+		"cardId": "cw32001075",
+		"cardGroupId": "cw32001075",
+		"cardTypeId": "3",
+		"cardCode": "BT01-075",
+		"countryCode": "JP",
+		"name": "ガンイージ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 2,
+		"size": "M",
+		"atk": 1,
+		"def": 1,
+		"cost": {
+			"neutral": 0,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"league-militaire",
+			null,
+			null,
+			"",
+			""
+		],
+		"description": [
+			"攻撃時<br />このユニットが戦闘によるダメージで敵のユニットを破壊したとき、相手の母艦に2ダメージを与える。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"do2DamageEnemyMothershipIfTargetDestroyedOnThisAttack",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001076": {
+		"cardId": "cw32001076",
+		"cardGroupId": "cw32001076",
+		"cardTypeId": "3",
+		"cardCode": "BT01-076",
+		"countryCode": "JP",
+		"name": "ジェムズガン",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"size": "M",
+		"atk": 1,
+		"def": 1,
+		"cost": {
+			"neutral": 0,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			null,
+			null,
+			"",
+			""
+		],
+		"description": [
+			"出撃時<br />このターンの間、このユニットをATK+1/DEF+1する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseThisUnitAtk1Def1OnLaunch",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001077": {
+		"cardId": "cw32001077",
+		"cardGroupId": "cw32001077",
+		"cardTypeId": "3",
+		"cardCode": "BT01-077",
+		"countryCode": "JP",
+		"name": "メビウス",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"size": "S",
+		"atk": 1,
+		"def": 2,
+		"cost": {
+			"neutral": 0,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"alliance",
+			null,
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001078": {
+		"cardId": "cw32001078",
+		"cardGroupId": "cw32001078",
+		"cardTypeId": "3",
+		"cardCode": "BT01-078",
+		"countryCode": "JP",
+		"name": "ジャベリン",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 1,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"federation",
+			null,
+			null,
+			"defence",
+			""
+		],
+		"description": [
+			"【防衛】<br /> このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"preventTargetMyMothershipOnEnemyTurn",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001079": {
+		"cardId": "cw32001079",
+		"cardGroupId": "cw32001079",
+		"cardTypeId": "3",
+		"cardCode": "BT01-079",
+		"countryCode": "JP",
+		"name": "ロングダガー",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"size": "M",
+		"atk": 1,
+		"def": 2,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"alliance",
+			"dagger",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"出撃時<br />このターンの間、味方のユニット1機をATK+1/DEF+1する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseMyTargetAtk1Def1OnLaunch",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001080": {
+		"cardId": "cw32001080",
+		"cardGroupId": "cw32001080",
+		"cardTypeId": "3",
+		"cardCode": "BT01-080",
+		"countryCode": "JP",
+		"name": "グレイズ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 2,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"gjallarhorn",
+			"graze",
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001081": {
+		"cardId": "cw32001081",
+		"cardGroupId": "cw32001081",
+		"cardTypeId": "3",
+		"cardCode": "BT01-081",
+		"countryCode": "JP",
+		"name": "ガンダムエアマスター",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"size": "M",
+		"atk": 3,
+		"def": 3,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"gundam",
+			null,
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001083": {
+		"cardId": "cw32001083",
+		"cardGroupId": "cw32001083",
+		"cardTypeId": "3",
+		"cardCode": "BT01-083",
+		"countryCode": "JP",
+		"name": "105ダガー",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 2,
+		"size": "M",
+		"atk": 2,
+		"def": 2,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"alliance",
+			"dagger",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"出撃時<br />敵のユニット1機に2ダメージを与える。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"do2DamageToEnemyTargetOnLaunch",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001084": {
+		"cardId": "cw32001084",
+		"cardGroupId": "cw32001084",
+		"cardTypeId": "3",
+		"cardCode": "BT01-084",
+		"countryCode": "JP",
+		"name": "ガンダムレオパルド",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"size": "M",
+		"atk": 4,
+		"def": 4,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"gundam",
+			null,
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001086": {
+		"cardId": "cw32001086",
+		"cardGroupId": "cw32001086",
+		"cardTypeId": "3",
+		"cardCode": "BT01-086",
+		"countryCode": "JP",
+		"name": "ストライクルージュ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 3,
+		"size": "M",
+		"atk": 4,
+		"def": 2,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 0,
+			"yellow": 2,
+			"black": 0
+		},
+		"characteristicId": [
+			"orb",
+			"gundam",
+			null,
+			"armor",
+			""
+		],
+		"description": [
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。",
+			"【装甲】 相手のターン<br />未行動のこのユニットが相手からのダメージによって破壊されるとき、そのダメージを受けないかわりにこのユニットを行動済にする。"
+		],
+		"modelDesignation": "MBF-02",
+		"effects": [
+			"preventTargetMyMothershipOnEnemyTurn",
+			"nullDamageThenImmobiliseIfNotImmobilisedOnDestroy",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001087": {
+		"cardId": "cw32001087",
+		"cardGroupId": "cw32001087",
+		"cardTypeId": "3",
+		"cardCode": "BT01-087",
+		"countryCode": "JP",
+		"name": "グレイズ（指揮官機）",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 2,
+		"size": "M",
+		"atk": 4,
+		"def": 3,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 0,
+			"yellow": 2,
+			"black": 0
+		},
+		"characteristicId": [
+			"gjallarhorn",
+			"graze",
+			null,
+			"morale",
+			""
+		],
+		"description": [
+			"【士気：《グレイズ》+1】<br />他の《グレイズ》を持つ味方のユニット全てをATK+1する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseMyOtherUnitsWithAttributeGrazeAtk1OnMyTurn",
+			"increaseMyOtherUnitsWithAttributeGrazeAtk1OnEnemyTurn",
+			"increaseMyOtherUnitsWithAttributeGrazeAtk1OnLaunch",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001088": {
+		"cardId": "cw32001088",
+		"cardGroupId": "cw32001088",
+		"cardTypeId": "3",
+		"cardCode": "BT01-088",
+		"countryCode": "JP",
+		"name": "ストライクガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"size": "M",
+		"atk": 4,
+		"def": 5,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"alliance",
+			"gundam",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"攻撃終了時<br />あなたのMSデッキを上から1枚破棄する。そのカードが《ストライカーパック》を持つユニットカードであれば、このカードと入れ替えて出撃させる（パイロットだけを引き継ぎ、出撃時の効果は発揮しない）。入れ替えたこのカードは手札にする。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"draw1CardIfCardIsStrikerPackReplaceThisUnitWithCardAndReturnThisUnitToHandElseDestroyCardOnAttack",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001089": {
+		"cardId": "cw32001089",
+		"cardGroupId": "cw32001089",
+		"cardTypeId": "3",
+		"cardCode": "BT01-089",
+		"countryCode": "JP",
+		"name": "ガンダムアストレイブルーフレーム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"size": "M",
+		"atk": 5,
+		"def": 5,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"gundam",
+			"astray",
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001090": {
+		"cardId": "cw32001090",
+		"cardGroupId": "cw32001090",
+		"cardTypeId": "3",
+		"cardCode": "BT01-090",
+		"countryCode": "JP",
+		"name": "ガンダム・バルバトス",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 3,
+		"size": "M",
+		"atk": 4,
+		"def": 4,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"cgs",
+			"gundam",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"敵のユニットが破壊されるたび、このターンの間、このユニットをATK+2/DEF+2する。",
+			"出撃時<br />敵のユニット1機に2ダメージを与える。"
+		],
+		"modelDesignation": "ASW-G-08",
+		"effects": [
+			"increaseThisUnitAtk2Def2ForEveryDestroyedEnemyUnit",
+			"do2DamageToEnemyTargetOnLaunch",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001091": {
+		"cardId": "cw32001091",
+		"cardGroupId": "cw32001091",
+		"cardTypeId": "3",
+		"cardCode": "BT01-091",
+		"countryCode": "JP",
+		"name": "ソードストライクガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 2,
+		"size": "M",
+		"atk": 2,
+		"def": 5,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 0,
+			"yellow": 2,
+			"black": 0
+		},
+		"characteristicId": [
+			"alliance",
+			"gundam",
+			"strikerPack",
+			"",
+			""
+		],
+		"description": [
+			"攻撃時<br />このユニットをATK+4する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseDamage4BeforeAttack",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001092": {
+		"cardId": "cw32001092",
+		"cardGroupId": "cw32001092",
+		"cardTypeId": "3",
+		"cardCode": "BT01-092",
+		"countryCode": "JP",
+		"name": "ガンダムアストレイレッドフレーム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 3,
+		"size": "M",
+		"atk": 4,
+		"def": 3,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 0,
+			"yellow": 2,
+			"black": 0
+		},
+		"characteristicId": [
+			"gundam",
+			"astray",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"出撃時<br />このターンの間、このユニットと味方のユニット1機をATK+2/DEF+2する。"
+		],
+		"modelDesignation": "MBF-P02",
+		"effects": [
+			"increaseThisUnitAtk2Def2OnLaunch",
+			"increaseMyTargetAtk2Def2OnLaunch",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001093": {
+		"cardId": "cw32001093",
+		"cardGroupId": "cw32001093",
+		"cardTypeId": "3",
+		"cardCode": "BT01-093",
+		"countryCode": "JP",
+		"name": "Vガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"size": "M",
+		"atk": 6,
+		"def": 6,
+		"cost": {
+			"neutral": 5,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"league-militaire",
+			"gundam",
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001094": {
+		"cardId": "cw32001094",
+		"cardGroupId": "cw32001094",
+		"cardTypeId": "3",
+		"cardCode": "BT01-094",
+		"countryCode": "JP",
+		"name": "ランチャーストライクガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"size": "M",
+		"atk": 5,
+		"def": 5,
+		"cost": {
+			"neutral": 5,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"alliance",
+			"gundam",
+			"strikerPack",
+			"",
+			""
+		],
+		"description": [
+			"攻撃時<br />総コストが最も低い敵のユニット全てに2ダメージを与える。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"do2DamageAllLowestTotalCostEnemyUnitOnThisAttack",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001095": {
+		"cardId": "cw32001095",
+		"cardGroupId": "cw32001095",
+		"cardTypeId": "3",
+		"cardCode": "BT01-095",
+		"countryCode": "JP",
+		"name": "ガンダムX",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 3,
+		"size": "M",
+		"atk": 5,
+		"def": 5,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 0,
+			"yellow": 2,
+			"black": 0
+		},
+		"characteristicId": [
+			"gundam",
+			null,
+			null,
+			"scramble",
+			""
+		],
+		"description": [
+			"【スクランブル：1】 あなたのターン<br />あなたが後攻のとき、手札にあるこのカードを無色コスト-1する。",
+			"出撃時<br />敵のユニット1機に4ダメージを与える。"
+		],
+		"modelDesignation": "GX-9900",
+		"effects": [
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnDraw",
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnMyTurn",
+			"do4DamageToEnemyTargetOnLaunch",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001096": {
+		"cardId": "cw32001096",
+		"cardGroupId": "cw32001096",
+		"cardTypeId": "3",
+		"cardCode": "BT01-096",
+		"countryCode": "JP",
+		"name": "エールストライクガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 3,
+		"size": "M",
+		"atk": 6,
+		"def": 4,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 0,
+			"yellow": 3,
+			"black": 0
+		},
+		"characteristicId": [
+			"alliance",
+			"gundam",
+			"strikerPack",
+			"",
+			"armor"
+		],
+		"description": [
+			"このユニットが戦闘によるダメージで敵のユニットを破壊したとき、相手の母艦に3ダメージを与える。",
+			"【装甲】 相手のターン<br />未行動のこのユニットが相手からのダメージによって破壊されるとき、そのダメージを受けないかわりにこのユニットを行動済にする。"
+		],
+		"modelDesignation": "GAT-X105＋AQM/E-X01",
+		"effects": [
+			"do3DamageEnemyMothershipIfTargetDestroyedOnThisAttack",
+			"nullDamageThenImmobiliseIfNotImmobilisedOnDestroy",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001097": {
+		"cardId": "cw32001097",
+		"cardGroupId": "cw32001097",
+		"cardTypeId": "3",
+		"cardCode": "BT01-097",
+		"countryCode": "JP",
+		"name": "ガンダムアストレイブルーフレームセカンドL",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 2,
+		"size": "M",
+		"atk": 4,
+		"def": 5,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 0,
+			"yellow": 3,
+			"black": 0
+		},
+		"characteristicId": [
+			"gundam",
+			"astray",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"あなたのターン<br />このユニットの両隣にいる味方のユニットをATK+2する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseAdjacentUnitsAtk2OnMyTurn",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001098": {
+		"cardId": "cw32001098",
+		"cardGroupId": "cw32001098",
+		"cardTypeId": "3",
+		"cardCode": "BT01-098",
+		"countryCode": "JP",
+		"name": "V2ガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 4,
+		"size": "M",
+		"atk": 5,
+		"def": 7,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 0,
+			"yellow": 3,
+			"black": 0
+		},
+		"characteristicId": [
+			"league-militaire",
+			"gundam",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"このカードは、あなたのブリッジにいる行動済の「ウッソ・エヴィン」も搭乗できる。",
+			"攻撃終了時<br />このユニットにパイロットが搭乗しているとき、このユニットを未行動にする。この効果はあなたのターンに1回しか発揮しない。"
+		],
+		"modelDesignation": "LM314V21",
+		"effects": [
+			"allowsImmobilisedUsoEwinPilotToBoard",
+			"giveTurnIfThisUnitHasPilotOnMyTurn",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001098cr": {
+		"cardId": "cw32001098cr",
+		"cardGroupId": "cw32001098",
+		"cardTypeId": "3",
+		"cardCode": "BT01C098",
+		"countryCode": "JP",
+		"name": "V2ガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 100,
+		"size": "M",
+		"atk": 5,
+		"def": 7,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 0,
+			"yellow": 3,
+			"black": 0
+		},
+		"characteristicId": [
+			"league-militaire",
+			"gundam",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"このカードは、あなたのブリッジにいる行動済の「ウッソ・エヴィン」も搭乗できる。",
+			"攻撃終了時<br />このユニットにパイロットが搭乗しているとき、このユニットを未行動にする。この効果はあなたのターンに1回しか発揮しない。"
+		],
+		"modelDesignation": "LM314V21",
+		"effects": [
+			"allowsImmobilisedUsoEwinPilotToBoard",
+			"giveTurnIfThisUnitHasPilotOnMyTurn",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001112": {
+		"cardId": "cw32001112",
+		"cardGroupId": "cw32001112",
+		"cardTypeId": "3",
+		"cardCode": "BT01-112",
+		"countryCode": "JP",
+		"name": "ハイザック（ティターンズ仕様）",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"size": "M",
+		"atk": 1,
+		"def": 1,
+		"cost": {
+			"neutral": 0,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"titans",
+			null,
+			null,
+			"",
+			""
+		],
+		"description": [
+			"あなたのターン<br />あなたがイベントカードを使用するたび、このターンの間、このユニットをATK+2/DEF+2する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseThisUnitAtk2Def2ForEveryEventCardUsedOnMyTurn",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001114": {
+		"cardId": "cw32001114",
+		"cardGroupId": "cw32001114",
+		"cardTypeId": "3",
+		"cardCode": "BT01-114",
+		"countryCode": "JP",
+		"name": "ジンオーカー",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 2,
+		"size": "M",
+		"atk": 1,
+		"def": 1,
+		"cost": {
+			"neutral": 0,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"zaft",
+			"jin",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"破壊時<br />このユニットが戦闘によるダメージを敵のユニットに与えたとき、このターンの間、その敵のユニット1機をATK-1/DEF-1する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"reduceAttackingEnemyUnitAtk1Def1OnThisDestroyed",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001115": {
+		"cardId": "cw32001115",
+		"cardGroupId": "cw32001115",
+		"cardTypeId": "3",
+		"cardCode": "BT01-115",
+		"countryCode": "JP",
+		"name": "ジムⅡ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 1,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"titans",
+			"jimu",
+			null,
+			"scramble",
+			""
+		],
+		"description": [
+			"【スクランブル：1】 あなたのターン<br />あなたが後攻のとき、手札にあるこのカードを無色コスト-1する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnDraw",
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnMyTurn",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001116": {
+		"cardId": "cw32001116",
+		"cardGroupId": "cw32001116",
+		"cardTypeId": "3",
+		"cardCode": "BT01-116",
+		"countryCode": "JP",
+		"name": "ハイザック・カスタム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 2,
+		"size": "M",
+		"atk": 0,
+		"def": 4,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"titans",
+			null,
+			null,
+			"supremacy",
+			""
+		],
+		"description": [
+			"【制圧：コスト1～3】 相手のターン<br />パイロットが搭乗していない、総コスト1～3の敵のユニットは攻撃できない。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"givePreventTargetAllUnitsIfEnemyUnitHasNoPilotAndTotalCostIs1to3OnEnemyTurn",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001117": {
+		"cardId": "cw32001117",
+		"cardGroupId": "cw32001117",
+		"cardTypeId": "3",
+		"cardCode": "BT01-117",
+		"countryCode": "JP",
+		"name": "ジン（3連ミサイルポッド装備）",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"size": "M",
+		"atk": 1,
+		"def": 3,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"zaft",
+			"jin",
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001118": {
+		"cardId": "cw32001118",
+		"cardGroupId": "cw32001118",
+		"cardTypeId": "3",
+		"cardCode": "BT01-118",
+		"countryCode": "JP",
+		"name": "ジン（重斬刀装備）",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"size": "M",
+		"atk": 1,
+		"def": 2,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"zaft",
+			"jin",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"出撃時<br />このターンの間、敵のユニット1機をATK-1/DEF-1する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"reduceEnemyTargetAtk1Def1OnLaunch",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001120": {
+		"cardId": "cw32001120",
+		"cardGroupId": "cw32001120",
+		"cardTypeId": "3",
+		"cardCode": "BT01-120",
+		"countryCode": "JP",
+		"name": "ジム・クゥエル",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 4,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"titans",
+			"jimu",
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001121": {
+		"cardId": "cw32001121",
+		"cardGroupId": "cw32001121",
+		"cardTypeId": "3",
+		"cardCode": "BT01-121",
+		"countryCode": "JP",
+		"name": "バーザム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"size": "M",
+		"atk": 1,
+		"def": 4,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"titans",
+			null,
+			null,
+			"defence",
+			""
+		],
+		"description": [
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"preventTargetMyMothershipOnEnemyTurn",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001122": {
+		"cardId": "cw32001122",
+		"cardGroupId": "cw32001122",
+		"cardTypeId": "3",
+		"cardCode": "BT01-122",
+		"countryCode": "JP",
+		"name": "ハンブラビ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 2,
+		"size": "M",
+		"atk": 2,
+		"def": 3,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"titans",
+			null,
+			null,
+			"variable",
+			""
+		],
+		"description": [
+			"【可変】 あなたのターン<br />このユニットに記述されているATKとDEFを入れ替える。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"swapThisUnitAtkDefOnMyTurn",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001123": {
+		"cardId": "cw32001123",
+		"cardGroupId": "cw32001123",
+		"cardTypeId": "3",
+		"cardCode": "BT01-123",
+		"countryCode": "JP",
+		"name": "シグー",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 3,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 2
+		},
+		"characteristicId": [
+			"zaft",
+			null,
+			null,
+			"morale",
+			""
+		],
+		"description": [
+			"【士気：《ジン》+1】<br />他の《ジン》を持つ味方のユニット全てをATK+1する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseMyOtherUnitsWithAttributeJinAtk1OnMyTurn",
+			"increaseMyOtherUnitsWithAttributeJinAtk1OnEnemyTurn",
+			"increaseMyOtherUnitsWithAttributeJinAtk1OnLaunch",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001124": {
+		"cardId": "cw32001124",
+		"cardGroupId": "cw32001124",
+		"cardTypeId": "3",
+		"cardCode": "BT01-124",
+		"countryCode": "JP",
+		"name": "ガンダムMk-Ⅱ(ティターンズ仕様)",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 3,
+		"size": "M",
+		"atk": 2,
+		"def": 5,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"titans",
+			"gundam",
+			null,
+			"",
+			"defence"
+		],
+		"description": [
+			"あなたのターン<br />あなたがイベントカードを使用するたび、あなたは1枚ドローする。",
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。"
+		],
+		"modelDesignation": "RX-178",
+		"effects": [
+			"draw1CardForEveryEventCardPlacedOnMyTurn",
+			"preventTargetMyMothershipOnEnemyTurn",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001125": {
+		"cardId": "cw32001125",
+		"cardGroupId": "cw32001125",
+		"cardTypeId": "3",
+		"cardCode": "BT01-125",
+		"countryCode": "JP",
+		"name": "マラサイ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 5,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"titans",
+			null,
+			null,
+			"supremacy",
+			""
+		],
+		"description": [
+			"【制圧：コスト3～4】 相手のターン<br />パイロットが搭乗していない、総コスト3～4の敵のユニットは攻撃できない。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"givePreventTargetAllUnitsIfEnemyUnitHasNoPilotAndTotalCostIs3to4OnEnemyTurn",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001126": {
+		"cardId": "cw32001126",
+		"cardGroupId": "cw32001126",
+		"cardTypeId": "3",
+		"cardCode": "BT01-126",
+		"countryCode": "JP",
+		"name": "バクゥ（レールガン装備）",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"size": "M",
+		"atk": 3,
+		"def": 5,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"zaft",
+			null,
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001127": {
+		"cardId": "cw32001127",
+		"cardGroupId": "cw32001127",
+		"cardTypeId": "3",
+		"cardCode": "BT01-127",
+		"countryCode": "JP",
+		"name": "ガブスレイ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 2,
+		"size": "M",
+		"atk": 2,
+		"def": 5,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 3
+		},
+		"characteristicId": [
+			"titans",
+			null,
+			null,
+			"variable",
+			""
+		],
+		"description": [
+			"【可変】 あなたのターン<br />このユニットに記述されているATKとDEFを入れ替える。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"swapThisUnitAtkDefOnMyTurn",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001128": {
+		"cardId": "cw32001128",
+		"cardGroupId": "cw32001128",
+		"cardTypeId": "3",
+		"cardCode": "BT01-128",
+		"countryCode": "JP",
+		"name": "ガルバルディβ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"size": "M",
+		"atk": 4,
+		"def": 6,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"titans",
+			null,
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001129": {
+		"cardId": "cw32001129",
+		"cardGroupId": "cw32001129",
+		"cardTypeId": "3",
+		"cardCode": "BT01-129",
+		"countryCode": "JP",
+		"name": "パラス・アテネ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 3,
+		"size": "M",
+		"atk": 3,
+		"def": 6,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"titans",
+			null,
+			null,
+			"scramble",
+			"supremacy"
+		],
+		"description": [
+			"【スクランブル：1】 あなたのターン<br />あなたが後攻のとき、手札にあるこのカードを無色コスト-1する。",
+			"【制圧：コスト4～6】 相手のターン<br />パイロットが搭乗していない、総コスト4～6の敵のユニットは攻撃できない。"
+		],
+		"modelDesignation": "PMX-001",
+		"effects": [
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnDraw",
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnMyTurn",
+			"givePreventTargetAllUnitsIfEnemyUnitHasNoPilotAndTotalCostIs4to6OnEnemyTurn",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001130": {
+		"cardId": "cw32001130",
+		"cardGroupId": "cw32001130",
+		"cardTypeId": "3",
+		"cardCode": "BT01-130",
+		"countryCode": "JP",
+		"name": "ゲイツ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 2,
+		"size": "M",
+		"atk": 4,
+		"def": 5,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 2
+		},
+		"characteristicId": [
+			"zaft",
+			null,
+			null,
+			"",
+			""
+		],
+		"description": [
+			"出撃時<br />このターンの間、ユニット1機をATK+3/DEF-2する。"
+		],
+		"modelDesignation": "",
+		"effects": [
+			"increaseAnyTargetAtk3ReduceDef2OnLaunch",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001131": {
+		"cardId": "cw32001131",
+		"cardGroupId": "cw32001131",
+		"cardTypeId": "3",
+		"cardCode": "BT01-131",
+		"countryCode": "JP",
+		"name": "バイアラン",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"size": "M",
+		"atk": 6,
+		"def": 6,
+		"cost": {
+			"neutral": 5,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"titans",
+			null,
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001132": {
+		"cardId": "cw32001132",
+		"cardGroupId": "cw32001132",
+		"cardTypeId": "3",
+		"cardCode": "BT01-132",
+		"countryCode": "JP",
+		"name": "デュエルガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 3,
+		"size": "M",
+		"atk": 4,
+		"def": 5,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 2
+		},
+		"characteristicId": [
+			"zaft",
+			"gundam",
+			null,
+			"",
+			"defence"
+		],
+		"description": [
+			"このユニットと戦闘する敵のユニットを、このターンの間、ATK-1/DEF-1する。",
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。"
+		],
+		"modelDesignation": "GAT-X102",
+		"effects": [
+			"reduceAttackerAtk1Def1OnThisAttacked",
+			"reduceRecieverAtk1Def1OnThisAttacks",
+			"preventTargetMyMothershipOnEnemyTurn",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001133": {
+		"cardId": "cw32001133",
+		"cardGroupId": "cw32001133",
+		"cardTypeId": "3",
+		"cardCode": "BT01-133",
+		"countryCode": "JP",
+		"name": "バスターガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 3,
+		"size": "M",
+		"atk": 4,
+		"def": 5,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 2
+		},
+		"characteristicId": [
+			"zaft",
+			"gundam",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"出撃時<br />このターンの間、敵のユニット1機をATK-4/DEF-4する。"
+		],
+		"modelDesignation": "GAT-X103",
+		"effects": [
+			"reduceEnemyTargetAtk4Def4OnLaunch",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001134": {
+		"cardId": "cw32001134",
+		"cardGroupId": "cw32001134",
+		"cardTypeId": "3",
+		"cardCode": "BT01-134",
+		"countryCode": "JP",
+		"name": "ブリッツガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 3,
+		"size": "M",
+		"atk": 5,
+		"def": 5,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 2
+		},
+		"characteristicId": [
+			"zaft",
+			"gundam",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"出撃時<br />このターンの間、敵のユニット1機の持つ【防衛】を無効にする。",
+			"攻撃時<br />相手のカウンターカードは発動しない。"
+		],
+		"modelDesignation": "GAT-X207",
+		"effects": [
+			"removeDefenceEffectForEnemyTargetOnLaunch",
+			"preventCounterTriggerOnThisAttack",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001135": {
+		"cardId": "cw32001135",
+		"cardGroupId": "cw32001135",
+		"cardTypeId": "3",
+		"cardCode": "BT01-135",
+		"countryCode": "JP",
+		"name": "ジ・O",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 4,
+		"size": "M",
+		"atk": 7,
+		"def": 7,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 3
+		},
+		"characteristicId": [
+			"titans",
+			null,
+			null,
+			"",
+			""
+		],
+		"description": [
+			"相手のターン<br />このユニットに攻撃している敵のユニットを、このターンの間、ATK-2/DEF-2する。",
+			"あなたのターン<br />あなたの手札にあるイベントカード全てを無色コスト-5する。"
+		],
+		"modelDesignation": "PMX-003",
+		"effects": [
+			"reduceAttackerAtk2Def2OnThisAttacked",
+			"reduceNeutralCost5ForMyEventCardsOnLaunch",
+			"reduceNeutralCost5ForMyEventCardsOnMyTurn",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32001135cr": {
+		"cardId": "cw32001135cr",
+		"cardGroupId": "cw32001135",
+		"cardTypeId": "3",
+		"cardCode": "BT01C135",
+		"countryCode": "JP",
+		"name": "ジ・O",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 100,
+		"size": "M",
+		"atk": 7,
+		"def": 7,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 3
+		},
+		"characteristicId": [
+			"titans",
+			null,
+			null,
+			"",
+			""
+		],
+		"description": [
+			"相手のターン<br />このユニットに攻撃している敵のユニットを、このターンの間、ATK-2/DEF-2する。",
+			"あなたのターン<br />あなたの手札にあるイベントカード全てを無色コスト-5する。"
+		],
+		"modelDesignation": "PMX-003",
+		"effects": [
+			"reduceAttackerAtk2Def2OnThisAttacked",
+			"reduceNeutralCost5ForMyEventCardsOnLaunch",
+			"reduceNeutralCost5ForMyEventCardsOnMyTurn",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw3300u001": {
+		"cardId": "cw3300u001",
+		"cardGroupId": "cw3300u001",
+		"cardTypeId": "3",
+		"cardCode": "PR-U001",
+		"countryCode": "JP",
+		"name": "シャア専用ズゴック",
+		"cardLimit": 4,
+		"packId": [
+			"pr-u"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 4,
+		"cost": {
+			"neutral": 3,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"amphibious",
+			"chars",
+			"underWaterAttack",
+			"defence"
+		],
+		"description": [
+			"【水中奇襲：3】 出撃時<br />このターンの間、このユニットをATK+3する。",
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。"
+		],
+		"modelDesignation": "MSM-07S",
+		"effects": [
+			"increaseThisUnitAtk3OnLaunch",
+			"preventTargetMyMothershipOnEnemyTurn",
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw3300u002": {
+		"cardId": "cw3300u002",
+		"cardGroupId": "cw3300u002",
+		"cardTypeId": "3",
+		"cardCode": "PR-U002",
+		"countryCode": "JP",
+		"name": "キャスバル専用ガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"pr-u"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "M",
+		"atk": 6,
+		"def": 5,
+		"cost": {
+			"neutral": 5,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"gundam",
+			"casvals",
+			"",
+			""
+		],
+		"description": [
+			"攻撃時<br />このユニットが攻撃によるダメージを相手の母艦に与えたとき、あなたは1枚ドローする。"
+		],
+		"modelDesignation": "RX-78/C.A",
+		"effects": [
+			"draw1CardIfThisUnitAttacksEnemyMothershipOnAttack",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw3300u003": {
+		"cardId": "cw3300u003",
+		"cardGroupId": "cw3300u003",
+		"cardTypeId": "3",
+		"cardCode": "PR-U003",
+		"countryCode": "JP",
+		"name": "ガンダム・バルバトス",
+		"cardLimit": 4,
+		"packId": [
+			"pr-u"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"size": "M",
+		"atk": 4,
+		"def": 3,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"cgs",
+			"gundam",
+			null,
+			"",
+			""
+		],
+		"description": [
+			"攻撃時<br />このユニットが戦闘によるダメージで敵のユニットを破壊したとき、相手の母艦に3ダメージを与える。"
+		],
+		"modelDesignation": "ASW-G-08",
+		"effects": [
+			"do3DamageEnemyMothershipIfTargetDestroyedOnThisAttack",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw3300u004": {
+		"cardId": "cw3300u004",
+		"cardGroupId": "cw3300u004",
+		"cardTypeId": "3",
+		"cardCode": "PR-U004",
+		"countryCode": "JP",
+		"name": "エールストライクガンダム",
+		"cardLimit": 4,
+		"packId": [
+			"pr-u"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"size": "M",
+		"atk": 5,
+		"def": 4,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"alliance",
+			"gundam",
+			"strikerPack",
+			"defence",
+			""
+		],
+		"description": [
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。"
+		],
+		"modelDesignation": "GAT-X105＋AQM/E-X01",
+		"effects": [
+			"preventTargetMyMothershipOnEnemyTurn",
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw3300u005": {
+		"cardId": "cw3300u005",
+		"cardGroupId": "cw3300u005",
+		"cardTypeId": "3",
+		"cardCode": "PR-U005",
+		"countryCode": "JP",
+		"name": "モビルワーカー MW-01 01式 後期型",
+		"cardLimit": 4,
+		"packId": [
+			"pr-u"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "M",
+		"atk": 4,
+		"def": 3,
+		"cost": {
+			"neutral": 3,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"rals",
+			null,
+			"scramble",
+			""
+		],
+		"description": [
+			"【スクランブル：1】 あなたのターン<br />あなたが後攻のとき、手札にあるこのカードを無色コスト-1する。",
+			"破壊時<br />あなたは1枚ドローする。"
+		],
+		"modelDesignation": "MW-01",
+		"effects": [
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnDraw",
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnMyTurn",
+			"draw1CardOnThisDestroy",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw3300t001": {
+		"cardId": "cw3300t001",
+		"cardGroupId": "cw3300t001",
+		"cardTypeId": "3",
+		"cardCode": "PR-T001",
+		"countryCode": "JP",
+		"name": "ビット　トークン",
+		"cardLimit": 0,
+		"packId": [
+			"pr-u",
+			"pr-t"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "S",
+		"atk": 1,
+		"def": 1,
+		"cost": {
+			"neutral": 0,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			null,
+			null,
+			null,
+			"",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			null,
+			null,
+			null,
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"cw32002032": {
+		"cardId": "cw32002032",
+		"cardGroupId": "cw32002032",
+		"cardTypeId": "3",
+		"cardCode": "BT02-032",
+		"countryCode": "JP",
+		"name": "ザクⅡＪ型（ザク・バズーカ装備）",
+		"cardLimit": 4,
+		"packId": [
+			"bt02"
+		],
+		"color": "green",
+		"rarity": 1,
+		"size": "M",
+		"atk": 2,
+		"def": 1,
+		"cost": {
+			"neutral": 1,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"zion",
+			"zion",
+			null,
+			"defence",
+			""
+		],
+		"description": [
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。",
+			""
+		],
+		"modelDesignation": "",
+		"effects": [
+			"preventTargetMyMothershipOnEnemyTurn",
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+}

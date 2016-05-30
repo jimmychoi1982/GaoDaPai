@@ -1,0 +1,22 @@
+{
+	"1": {
+		"cardTypeId": "1",
+		"cardTypeClass": "pilotCard"
+	},
+	"2": {
+		"cardTypeId": "2",
+		"cardTypeClass": "crewCard"
+	},
+	"3": {
+		"cardTypeId": "3",
+		"cardTypeClass": "unitCard"
+	},
+	"4": {
+		"cardTypeId": "4",
+		"cardTypeClass": "eventCard"
+	},
+	"5": {
+		"cardTypeId": "5",
+		"cardTypeClass": "counterCard"
+	}
+}

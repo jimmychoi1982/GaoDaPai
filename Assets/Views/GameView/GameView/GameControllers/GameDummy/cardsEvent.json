@@ -1,0 +1,636 @@
+{
+	"cw42001025": {
+		"cardId": "cw42001025",
+		"cardGroupId": "cw42001025",
+		"cardTypeId": "4",
+		"cardCode": "BT01-025",
+		"countryCode": "JP",
+		"name": "ユニコーンの日",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"cost": {
+			"neutral": 0,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"このターンの間、味方のユニット1機をATK+1/DEF+3する。"
+		],
+		"effects": [
+			"increaseMyTargetAtk1Def3OnLaunch"
+		]
+	},
+	"cw42001026": {
+		"cardId": "cw42001026",
+		"cardGroupId": "cw42001026",
+		"cardTypeId": "4",
+		"cardCode": "BT01-026",
+		"countryCode": "JP",
+		"name": "めぐりあい宇宙",
+		"cardLimit": 4,
+		"packId": [
+			"st01",
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"Mサイズの敵のユニット1機を行動済にする。"
+		],
+		"effects": [
+			"immobilise1EnemyMSizeTargetOnLaunch"
+		]
+	},
+	"cw42001027": {
+		"cardId": "cw42001027",
+		"cardGroupId": "cw42001027",
+		"cardTypeId": "4",
+		"cardCode": "BT01-027",
+		"countryCode": "JP",
+		"name": "ラビアンローズ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 2,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 1,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"あなたの母艦を8回復する。"
+		],
+		"effects": [
+			"heal8MyMothershipOnLaunch"
+		]
+	},
+	"cw42001028": {
+		"cardId": "cw42001028",
+		"cardGroupId": "cw42001028",
+		"cardTypeId": "4",
+		"cardCode": "BT01-028",
+		"countryCode": "JP",
+		"name": "空中換装",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 2,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"このターンの間、味方のユニットのATKを、そのユニットの持つDEFと等しくする。"
+		],
+		"effects": [
+			"makeMyTargetAtkSameAsDefForTurnOnLaunch"
+		]
+	},
+	"cw42001029": {
+		"cardId": "cw42001029",
+		"cardGroupId": "cw42001029",
+		"cardTypeId": "4",
+		"cardCode": "BT01-029",
+		"countryCode": "JP",
+		"name": "ラプラスの箱",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 2,
+		"cost": {
+			"neutral": 5,
+			"green": 0,
+			"blue": 3,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"敵のユニット1機を対象に選ぶ。そのユニットと同じ色の敵のユニット全てと、同じ色の相手のクルーカード全てを行動済にする。"
+		],
+		"effects": [
+			"immobiliseEnemyTargetAndAllEnemyCrewAndUnitsWithSameColorOnLaunch"
+		]
+	},
+	"cw42001062": {
+		"cardId": "cw42001062",
+		"cardGroupId": "cw42001062",
+		"cardTypeId": "4",
+		"cardCode": "BT01-062",
+		"countryCode": "JP",
+		"name": "マッドアングラー隊",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"cost": {
+			"neutral": 1,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"このターンの間、【水中奇襲】を持つ味方のユニット全てをATK+1する。",
+			"あなたは1枚ドローする。"
+		],
+		"effects": [
+			"increaseAllMyUnitsWithUnderWaterAttackAtk1OnLaunch",
+			"draw1CardOnLaunch"
+		]
+	},
+	"cw42001063": {
+		"cardId": "cw42001063",
+		"cardGroupId": "cw42001063",
+		"cardTypeId": "4",
+		"cardCode": "BT01-063",
+		"countryCode": "JP",
+		"name": "パプア補給艦",
+		"cardLimit": 4,
+		"packId": [
+			"st01",
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"cost": {
+			"neutral": 2,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"あなたは2枚ドローする。"
+		],
+		"effects": [
+			"draw2CardOnLaunch"
+		]
+	},
+	"cw42001064": {
+		"cardId": "cw42001064",
+		"cardGroupId": "cw42001064",
+		"cardTypeId": "4",
+		"cardCode": "BT01-064",
+		"countryCode": "JP",
+		"name": "鎧袖一触とはこの事か",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 2,
+		"cost": {
+			"neutral": 1,
+			"green": 2,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"味方のユニット1機を対象に選ぶ。このターンの間、そのユニットが戦闘によるダメージを敵のユニットに与えたとき、その敵のユニットを破壊する。"
+		],
+		"effects": [
+			"giveDestroyAttackedUnitOnAttackOnLaunch"
+		]
+	},
+	"cw42001065": {
+		"cardId": "cw42001065",
+		"cardGroupId": "cw42001065",
+		"cardTypeId": "4",
+		"cardCode": "BT01-065",
+		"countryCode": "JP",
+		"name": "立てよ国民！",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"cost": {
+			"neutral": 3,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"このターンの間、味方のユニット全てをATK+2/DEF+2する。"
+		],
+		"effects": [
+			"increaseAllMyUnitAtk2Def2OnLaunch"
+		]
+	},
+	"cw42001066": {
+		"cardId": "cw42001066",
+		"cardGroupId": "cw42001066",
+		"cardTypeId": "4",
+		"cardCode": "BT01-066",
+		"countryCode": "JP",
+		"name": "見えるぞ、私にも敵が見える！",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 2,
+		"cost": {
+			"neutral": 5,
+			"green": 1,
+			"blue": 0,
+			"yellow": 0,
+			"black": 0
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"このターンの間、味方のユニット1機をATK+6/DEF+6する。"
+		],
+		"effects": [
+			"increaseMyTargetAtk6Def6OnLaunch"
+		]
+	},
+	"cw42001099": {
+		"cardId": "cw42001099",
+		"cardGroupId": "cw42001099",
+		"cardTypeId": "4",
+		"cardCode": "BT01-099",
+		"countryCode": "JP",
+		"name": "私の想いが…あなたを守るから",
+		"cardLimit": 4,
+		"packId": [
+			"st02",
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"cost": {
+			"neutral": 0,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"このターンの間、味方のユニット1機をATK+2/DEF+2する。"
+		],
+		"effects": [
+			"increaseMyTargetAtk2Def2OnLaunch"
+		]
+	},
+	"cw42001100": {
+		"cardId": "cw42001100",
+		"cardGroupId": "cw42001100",
+		"cardTypeId": "4",
+		"cardCode": "BT01-100",
+		"countryCode": "JP",
+		"name": "ローエングリン、照準……",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"敵のユニット1機に3ダメージを与える。"
+		],
+		"effects": [
+			"do3DamageToEnemyTargetOnLaunch"
+		]
+	},
+	"cw42001101": {
+		"cardId": "cw42001101",
+		"cardGroupId": "cw42001101",
+		"cardTypeId": "4",
+		"cardCode": "BT01-101",
+		"countryCode": "JP",
+		"name": "ガンダム、売るよ！",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 2,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"あなたは3枚ドローする。その後、あなたは手札を2枚破棄する。"
+		],
+		"effects": [
+			"draw3CardOnLaunch",
+			"destroy2MyTargetUnitCardsOnLaunch"
+		]
+	},
+	"cw42001102": {
+		"cardId": "cw42001102",
+		"cardGroupId": "cw42001102",
+		"cardTypeId": "4",
+		"cardCode": "BT01-102",
+		"countryCode": "JP",
+		"name": "おかしいですよ！ カテジナさん！",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 2,
+		"cost": {
+			"neutral": 3,
+			"green": 0,
+			"blue": 0,
+			"yellow": 1,
+			"black": 0
+		},
+		"characteristicId": [
+			"scramble",
+			""
+		],
+		"description": [
+			"【スクランブル：1】 あなたのターン<br />あなたが後攻のとき、手札にあるこのカードを無色コスト-1する。",
+			"敵のユニット全てに2ダメージを与える。"
+		],
+		"effects": [
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnDraw",
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnMyTurn",
+			"do2DamageToAllEnemyUnitOnLaunch"
+		]
+	},
+	"cw42001103": {
+		"cardId": "cw42001103",
+		"cardGroupId": "cw42001103",
+		"cardTypeId": "4",
+		"cardCode": "BT01-103",
+		"countryCode": "JP",
+		"name": "光の翼",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 0,
+			"yellow": 2,
+			"black": 0
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"味方のユニット1機を未行動にする。"
+		],
+		"effects": [
+			"untap1MyTargetOnLaunch"
+		]
+	},
+	"cw42001136": {
+		"cardId": "cw42001136",
+		"cardGroupId": "cw42001136",
+		"cardTypeId": "4",
+		"cardCode": "BT01-136",
+		"countryCode": "JP",
+		"name": "ティターンズは力だ！",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"このターンの間、ユニット1機をATK+3/DEF-2する。"
+		],
+		"effects": [
+			"increaseAnyTargetAtk3ReduceDef2OnLaunch"
+		]
+	},
+	"cw42001137": {
+		"cardId": "cw42001137",
+		"cardGroupId": "cw42001137",
+		"cardTypeId": "4",
+		"cardCode": "BT01-137",
+		"countryCode": "JP",
+		"name": "ニュートロンジャマー",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"cost": {
+			"neutral": 2,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 1
+		},
+		"characteristicId": [
+			"scramble",
+			""
+		],
+		"description": [
+			"【スクランブル：1】 あなたのターン<br />あなたが後攻のとき、手札にあるこのカードを無色コスト-1する。",
+			"このターンの間、敵のユニット全てをATK-1/DEF-1する。"
+		],
+		"effects": [
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnDraw",
+			"reduceThisCardNeutralCost1IfYouAreFollowingPlayerOnMyTurn",
+			"reduceAllEnemyUnitsAtk1Def1OnLaunch"
+		]
+	},
+	"cw42001138": {
+		"cardId": "cw42001138",
+		"cardGroupId": "cw42001138",
+		"cardTypeId": "4",
+		"cardCode": "BT01-138",
+		"countryCode": "JP",
+		"name": "ジェリド特攻",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 2,
+		"cost": {
+			"neutral": 1,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 2
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"このターンの間、【可変】を持つ味方のユニットが攻撃するとき、敵のユニット全てが持つ【防衛】を無効にする。"
+		],
+		"effects": [
+			"giveAllMyUnitsWithVariableIgnoreEnemyDefenceBeforeMyAttackOnLaunch",
+			"giveLaunchedUnitWithVariableIgnoreEnemyDefenceBeforeMyAttackForTurnOnLaunch"
+		]
+	},
+	"cw42001139": {
+		"cardId": "cw42001139",
+		"cardGroupId": "cw42001139",
+		"cardTypeId": "4",
+		"cardCode": "BT01-139",
+		"countryCode": "JP",
+		"name": "捨て身の攻撃",
+		"cardLimit": 4,
+		"packId": [
+			"st02",
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"cost": {
+			"neutral": 4,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 2
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"S～Mサイズの敵のユニット1機を破壊する。"
+		],
+		"effects": [
+			"destroyEnemyTargetStoMSizeOnLaunch"
+		]
+	},
+	"cw42001140": {
+		"cardId": "cw42001140",
+		"cardGroupId": "cw42001140",
+		"cardTypeId": "4",
+		"cardCode": "BT01-140",
+		"countryCode": "JP",
+		"name": "サイクロプス",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 2,
+		"cost": {
+			"neutral": 5,
+			"green": 0,
+			"blue": 0,
+			"yellow": 0,
+			"black": 5
+		},
+		"characteristicId": [
+			"",
+			""
+		],
+		"description": [
+			"Mサイズの敵のユニット全てを破壊する。"
+		],
+		"effects": [
+			"destroyAllEnemyMSizeUnitOnLaunch"
+		]
+	}
+}

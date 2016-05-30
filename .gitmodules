@@ -1,0 +1,6 @@
+[submodule "Assets/Libraries/mage-sdk-unity"]
+	path = Assets/Libraries/mage-sdk-unity
+	url = https://github.com/AlmirKadric/mage-sdk-unity
+[submodule "Assets/Libraries/TaskManager"]
+	path = Assets/Libraries/TaskManager
+	url = https://github.com/AlmirKadric/Unity-TaskManager

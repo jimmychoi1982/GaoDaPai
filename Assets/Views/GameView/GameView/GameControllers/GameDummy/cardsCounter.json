@@ -1,0 +1,805 @@
+{
+	"cw51001004": {
+		"cardId": "cw51001004",
+		"cardGroupId": "cw51001004",
+		"cardTypeId": "5",
+		"cardCode": "ST01-004",
+		"countryCode": "JP",
+		"name": "うかつな奴め！",
+		"cardLimit": 4,
+		"packId": [
+			"st01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 1,
+				"yellow": 0,
+				"black": 0
+			}
+		},
+		"description": [
+			"未行動の敵のユニットの中から、総コストが最も高い敵のユニット全てを行動済にする。"
+		],
+		"effects": [
+			"immobiliseAllHighestTotalCostEnemyUnitsOnCounter"
+		]
+	},
+	"cw52001031": {
+		"cardId": "cw52001031",
+		"cardGroupId": "cw52001031",
+		"cardTypeId": "5",
+		"cardCode": "BT01-031",
+		"countryCode": "JP",
+		"name": "第1戦闘配置",
+		"cardLimit": 4,
+		"packId": [
+			"st01",
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 2,
+				"green": 0,
+				"blue": 1,
+				"yellow": 0,
+				"black": 0
+			}
+		},
+		"description": [
+			"このターンの間、味方のユニット全てをDEF+5して、【防衛】を与える。<br />（【防衛】 このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない）"
+		],
+		"effects": [
+			"increaseAllMyUnitsGiveDefenceEffectOnCounter",
+			"increaseAllMyUnitsDef5OnCounter"
+		]
+	},
+	"cw52001067": {
+		"cardId": "cw52001067",
+		"cardGroupId": "cw52001067",
+		"cardTypeId": "5",
+		"cardCode": "BT01-067",
+		"countryCode": "JP",
+		"name": "撤退命令",
+		"cardLimit": 4,
+		"packId": [
+			"st01",
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 0,
+				"green": 1,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			}
+		},
+		"description": [
+			"このターンの間、味方のユニットが破壊されるたび、そのユニットを手札に戻す。"
+		],
+		"effects": [
+			"giveReturnMyDestroyedUnitToHandOnDestroyedThisTurnAfterCounter"
+		]
+	},
+	"cw51002004": {
+		"cardId": "cw51002004",
+		"cardGroupId": "cw51002004",
+		"cardTypeId": "5",
+		"cardCode": "ST02-004",
+		"countryCode": "JP",
+		"name": "サイが僕に敵うはずないだろ？",
+		"cardLimit": 4,
+		"packId": [
+			"st02"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 1,
+				"black": 0
+			}
+		},
+		"description": [
+			"このターンの間、味方のユニット全てをATK+3/DEF+3する。<br />「キラ・ヤマト」が搭乗している味方のユニットがいれば、さらに攻撃対象をそのユニットに変更する。"
+		],
+		"effects": [
+			"increaseAllMyUnitAtk3Def3OnCounter",
+			"giveTransferDamageToMyUnitWithKiraYamatoOnAttackedForThisTurnOnCounter"
+		]
+	},
+	"cw52001005": {
+		"cardId": "cw52001005",
+		"cardGroupId": "cw52001005",
+		"cardTypeId": "5",
+		"cardCode": "BT01-105",
+		"countryCode": "JP",
+		"name": "偽りの平和",
+		"cardLimit": 4,
+		"packId": [
+			"st02",
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 2,
+				"green": 0,
+				"blue": 0,
+				"yellow": 1,
+				"black": 0
+			}
+		},
+		"description": [
+			"攻撃している敵のユニットと、その両隣にいる敵のユニットに2ダメージを与える。<br />そのユニットがあなたの母艦を攻撃しているとき、かわりにそれぞれ3ダメージを与える。"
+		],
+		"effects": [
+			"do2DamageToAttackerAndAdjacentUnitsIfAttackingMyMothershipDo3DamageOnCounter"
+		]
+	},
+	"cw52001044": {
+		"cardId": "cw52001044",
+		"cardGroupId": "cw52001044",
+		"cardTypeId": "5",
+		"cardCode": "BT01-144",
+		"countryCode": "JP",
+		"name": "血のバレンタイン",
+		"cardLimit": 4,
+		"packId": [
+			"st02",
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 2,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 2
+			}
+		},
+		"description": [
+			"このターンの間、パイロットが搭乗していない敵のユニット全てをATK1に固定する。"
+		],
+		"effects": [
+			"reduceAllEnemyUnitsWithoutPilotAtkTo1OnCounter",
+			"giveReduceLaunchedUnitWithoutPilotAtkTo1OnLaunchForThisTurnOnCounter"
+		]
+	},
+	"cw52001030": {
+		"cardId": "cw52001030",
+		"cardGroupId": "cw52001030",
+		"cardTypeId": "5",
+		"cardCode": "BT01-030",
+		"countryCode": "JP",
+		"name": "大気圏突入",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 1,
+				"yellow": 0,
+				"black": 0
+			}
+		},
+		"description": [
+			"このターンの間、敵のユニットが出撃するたび、そのユニットを行動済にする。"
+		],
+		"effects": [
+			"giveImmobiliseLaunchedUnitThisTurnOnCounter"
+		]
+	},
+	"cw52001032": {
+		"cardId": "cw52001032",
+		"cardGroupId": "cw52001032",
+		"cardTypeId": "5",
+		"cardCode": "BT01-032",
+		"countryCode": "JP",
+		"name": "サイド６",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 2,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 2,
+				"green": 0,
+				"blue": 1,
+				"yellow": 0,
+				"black": 0
+			}
+		},
+		"description": [
+			"このターンの間、あなたの母艦と味方のユニット全てはDEF3以下の敵のユニットからダメージを受けない。"
+		],
+		"effects": [
+			"giveNullDamageMyMothershipAndUnitsIfAttackerDef3LessBeforeAttackThisTurnOnCounter"
+		]
+	},
+	"cw52001033": {
+		"cardId": "cw52001033",
+		"cardGroupId": "cw52001033",
+		"cardTypeId": "5",
+		"cardCode": "BT01-033",
+		"countryCode": "JP",
+		"name": "こいつ……動くぞ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 1,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 2,
+				"green": 0,
+				"blue": 2,
+				"yellow": 0,
+				"black": 0
+			}
+		},
+		"description": [
+			"あなたのMSデッキを上から1枚破棄する。そのカードが総コスト4以下のユニットカードのとき、戦場の右端に出撃させる（パイロットは搭乗できず、出撃時の効果は発揮しない）。<br />攻撃している敵のユニットは出撃した味方のユニットに攻撃対象を変更する。"
+		],
+		"effects": [
+			"draw1CardIfTotalCost4LessLaunchCardWithoutEffectsAndTransferAttackElseDestroyOnCounter"
+		]
+	},
+	"cw52001034": {
+		"cardId": "cw52001034",
+		"cardGroupId": "cw52001034",
+		"cardTypeId": "5",
+		"cardCode": "BT01-034",
+		"countryCode": "JP",
+		"name": "左舷砲撃手！ 弾幕薄いぞ！ 何やってる！",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "blue",
+		"rarity": 2,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 2,
+				"green": 0,
+				"blue": 2,
+				"yellow": 0,
+				"black": 0
+			}
+		},
+		"description": [
+			"攻撃しているユニット以外の、敵のユニット全てを行動済にする。"
+		],
+		"effects": [
+			"immobiliseAllEnemyUnitsExceptAttackerOnCounter"
+		]
+	},
+	"cw52001068": {
+		"cardId": "cw52001068",
+		"cardGroupId": "cw52001068",
+		"cardTypeId": "5",
+		"cardCode": "BT01-068",
+		"countryCode": "JP",
+		"name": "当たらなければどうという事はない",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 2,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 1,
+				"green": 1,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			}
+		},
+		"description": [
+			"この攻撃の間、あなたの母艦と味方のユニットは、敵のユニットの攻撃によるダメージを受けない。"
+		],
+		"effects": [
+			"nullDamageOnCounter"
+		]
+	},
+	"cw52001069": {
+		"cardId": "cw52001069",
+		"cardGroupId": "cw52001069",
+		"cardTypeId": "5",
+		"cardCode": "BT01-069",
+		"countryCode": "JP",
+		"name": "ザクとは違うのだよ、ザクとは！",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 2,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 2,
+				"green": 2,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			}
+		},
+		"description": [
+			"次のあなたのターン終了時まで、味方のユニット全てをATK+1/DEF+1する。<br />その中の《グフ》を持つユニット全てはかわりにATK+2/DEF+2される。"
+		],
+		"effects": [
+			"increaseAllMyUnitsAtk1Def1IfAttributeGuffIncreaseAtk2Def2OnCounter",
+			"giveIncreaseAllMyUnitsAtk1Def1IfAttributeGuffIncreaseAtk2Def2OnMyTurnOnCounter",
+			"giveIncreaseLaunchedUnitAtk1Def1IfAttributeGuffIncreaseAtk2Def2OnUnitCreatedForTurnOnCounter"
+		]
+	},
+	"cw52001070": {
+		"cardId": "cw52001070",
+		"cardGroupId": "cw52001070",
+		"cardTypeId": "5",
+		"cardCode": "BT01-070",
+		"countryCode": "JP",
+		"name": "嘘だといってよ、バーニィ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 2,
+				"green": 2,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			}
+		},
+		"description": [
+			"このターンの間、味方のユニットが戦闘によるダメージを敵のユニットに与えたとき、その敵のユニットを破壊する。"
+		],
+		"effects": [
+			"giveDestroyAttackerOnMyUnitAttackedForTurnOnCounter"
+		]
+	},
+	"cw52001071": {
+		"cardId": "cw52001071",
+		"cardGroupId": "cw52001071",
+		"cardTypeId": "5",
+		"cardCode": "BT01-071",
+		"countryCode": "JP",
+		"name": "やらせは、せん！ やらせはせんぞーっ！",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "green",
+		"rarity": 1,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 3,
+				"green": 2,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			}
+		},
+		"description": [
+			"あなたは1枚ドローする。<br />この攻撃終了後からターン終了時まで、敵のユニットが攻撃するたび、あなたは1枚ドローする。"
+		],
+		"effects": [
+			"giveDraw1CardOnAttackOtherForTurnAfterCounter"
+		]
+	},
+	"cw52001104": {
+		"cardId": "cw52001104",
+		"cardGroupId": "cw52001104",
+		"cardTypeId": "5",
+		"cardCode": "BT01-104",
+		"countryCode": "JP",
+		"name": "SEEDの覚醒",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 2,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 1,
+				"black": 0
+			}
+		},
+		"description": [
+			"このターンの間、敵のユニットが出撃するたび、その敵のユニットに5ダメージを与える。"
+		],
+		"effects": [
+			"giveDo5DamageToLaunchedUnitOnLaunchForTurnOnCounter"
+		]
+	},
+	"cw52001106": {
+		"cardId": "cw52001106",
+		"cardGroupId": "cw52001106",
+		"cardTypeId": "5",
+		"cardCode": "BT01-106",
+		"countryCode": "JP",
+		"name": "PS装甲",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 2,
+				"green": 0,
+				"blue": 0,
+				"yellow": 1,
+				"black": 0
+			}
+		},
+		"description": [
+			"このターンの間、【装甲】を持つ味方のユニット全てをDEF+3する。さらに、あなたの母艦は総コスト5以上の敵のユニットの攻撃によるダメージを受けない。"
+		],
+		"effects": [
+			"increaseAllOwnUnitsWithArmorDef3OnCounter",
+			"giveNullDamageFromUnitsWithTotalCost5AboveOnAttackOtherForTurnOnCounter"
+		]
+	},
+	"cw52001107": {
+		"cardId": "cw52001107",
+		"cardGroupId": "cw52001107",
+		"cardTypeId": "5",
+		"cardCode": "BT01-107",
+		"countryCode": "JP",
+		"name": "ティファは、俺が守る！",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 2,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 2,
+				"green": 0,
+				"blue": 0,
+				"yellow": 2,
+				"black": 0
+			}
+		},
+		"description": [
+			"攻撃している敵のユニットに4ダメージを与える。この効果によって敵のユニットが破壊されたとき、相手の母艦に4ダメージを与える。"
+		],
+		"effects": [
+			"do4DamageToAttackerIfAttackerDestroyedDo4DamageToEnemyMothershipOnCounter"
+		]
+	},
+	"cw52001108": {
+		"cardId": "cw52001108",
+		"cardGroupId": "cw52001108",
+		"cardTypeId": "5",
+		"cardCode": "BT01-108",
+		"countryCode": "JP",
+		"name": "それでも！守りたい世界があるんだ！",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "yellow",
+		"rarity": 1,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 2,
+				"green": 0,
+				"blue": 0,
+				"yellow": 2,
+				"black": 0
+			}
+		},
+		"description": [
+			"攻撃している敵のユニットは、最もATKが高い味方のユニット1機に攻撃対象を変更する。（対象となるユニットが複数いる場合、右側を優先する）"
+		],
+		"effects": [
+			"transferAttackDamageToMyMostRightHighestAtkUnitOnCounter"
+		]
+	},
+	"cw52001141": {
+		"cardId": "cw52001141",
+		"cardGroupId": "cw52001141",
+		"cardTypeId": "5",
+		"cardCode": "BT01-141",
+		"countryCode": "JP",
+		"name": "あのミサイルを墜とせ！",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 0,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 1
+			}
+		},
+		"description": [
+			"このターンの間、あなたと味方のユニットは、相手の効果によるダメージを受けない。"
+		],
+		"effects": [
+			"giveNullDamageFromEnemyEffectsOnEffectDamageForTurnOnCounter"
+		]
+	},
+	"cw52001142": {
+		"cardId": "cw52001142",
+		"cardGroupId": "cw52001142",
+		"cardTypeId": "5",
+		"cardCode": "BT01-142",
+		"countryCode": "JP",
+		"name": "戦場ではビビッた者が死ぬんだ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 1,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 1
+			}
+		},
+		"description": [
+			"攻撃している敵のユニット1機に搭乗しているパイロットをゲームから取り除く。"
+		],
+		"effects": [
+			"destroyAttackerPilotOnCounter"
+		]
+	},
+	"cw52001143": {
+		"cardId": "cw52001143",
+		"cardGroupId": "cw52001143",
+		"cardTypeId": "5",
+		"cardCode": "BT01-143",
+		"countryCode": "JP",
+		"name": "ジャブローの風",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 2,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 2
+			}
+		},
+		"description": [
+			"このターンの間、ユニット全てをATK-1/DEF-1する。<br />敵のユニットがあなたの母艦を攻撃しているとき、かわりにユニット全てをATK-2/DEF-2する。"
+		],
+		"effects": [
+			"reduceAllUnitsAtk1Def1IfAttackingMothershipReduceAtk2Def2OnCounter",
+			"giveReduceLaunchedUnitAtk1Def1OnLaunchIfAttackingMothershipGiveReduceLaunchedUnitAtk2Def2OnLaunchForTurnOnCounter"
+		]
+	},
+	"cw52001145": {
+		"cardId": "cw52001145",
+		"cardGroupId": "cw52001145",
+		"cardTypeId": "5",
+		"cardCode": "BT01-145",
+		"countryCode": "JP",
+		"name": "グゥレイトォ！",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "black",
+		"rarity": 2,
+		"cost": {
+			"play": {
+				"neutral": 1,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 0
+			},
+			"activate": {
+				"neutral": 2,
+				"green": 0,
+				"blue": 0,
+				"yellow": 0,
+				"black": 2
+			}
+		},
+		"description": [
+			"攻撃している敵のユニットの両隣にいる敵のユニットを破壊する。"
+		],
+		"effects": [
+			"destroyAttackerAdjacentUnitsOnCounter"
+		]
+	}
+}

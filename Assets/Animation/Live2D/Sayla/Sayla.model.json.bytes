@@ -1,0 +1,37 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"moc/Sayla.moc",
+	"textures":[
+		"moc/Sayla.2048/texture_00.png"
+	],
+	"motions":{
+		"idle":[
+			{"file":"mtn/idle.mtn"}
+		],
+		"":[
+			{"file":"mtn/003.mtn","sound":"voice/Seyla_003.mp3"},
+			{"file":"mtn/006.mtn","sound":"voice/Seyla_006.mp3"},
+			{"file":"mtn/032.mtn","sound":"voice/Seyla_032.mp3"},
+			{"file":"","sound":"voice/Seyla_034.mp3"},
+			{"file":"mtn/075.mtn","sound":"voice/Seyla_075.mp3"},
+			{"file":"mtn/090.mtn","sound":"voice/Seyla_090.mp3"},
+			{"file":"mtn/117.mtn","sound":"voice/Seyla_117.mp3"},
+			{"file":"mtn/12.mtn","sound":"voice/Seyla_012.mp3"},
+			{"file":"mtn/122.mtn","sound":"voice/Seyla_122.mp3"},
+			{"file":"mtn/127.mtn","sound":"voice/Seyla_127.mp3"},
+			{"file":"mtn/152.mtn","sound":"voice/Seyla_152.mp3"},
+			{"file":"mtn/172.mtn","sound":"voice/Seyla_172.mp3"},
+			{"file":"mtn/194.mtn","sound":"voice/Seyla_194.mp3"},
+			{"file":"mtn/223.mtn","sound":"voice/Seyla_223.mp3"},
+			{"file":"mtn/49.mtn","sound":"voice/Seyla_049.mp3"},
+			{"file":"mtn/68.mtn","sound":"voice/Seyla_068.mp3"},
+			{"file":"mtn/71.mtn","sound":"voice/Seyla_071.mp3"},
+			{"file":"mtn/76.mtn","sound":"voice/Seyla_076.mp3"},
+			{"file":"mtn/8.mtn","sound":"voice/Seyla_008.mp3"},
+			{"file":"mtn/92.mtn","sound":"voice/Seyla_092.mp3"},
+			{"file":"mtn/98.mtn","sound":"voice/Seyla_098.mp3"},
+			{"file":"mtn/034.mtn","sound":"voice/Seyla_034.mp3"}
+		]
+	},
+	"physics":"Sayla.physics.json"
+}

@@ -1,0 +1,39 @@
+fileFormatVersion: 2
+guid: 35b9d08b8bcbb484b894dc599f567758
+timeCreated: 1461750977
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - gameDummy: {instanceID: 0}
+  - errorPrefab: {fileID: 113132, guid: 37cc7319565224e2dbcaf834718cfa76, type: 2}
+  - errorParent: {instanceID: 0}
+  - coinToss: {instanceID: 0}
+  - gameTurnManager: {instanceID: 0}
+  - myDeckManager: {instanceID: 0}
+  - enemyDeckManager: {instanceID: 0}
+  - gameInitialDraw: {instanceID: 0}
+  - cardLaunchManager: {instanceID: 0}
+  - gameChoiceCard: {instanceID: 0}
+  - gameChoiceTarget: {instanceID: 0}
+  - cardInfo: {instanceID: 0}
+  - cardTipsManager: {instanceID: 0}
+  - myPlayerData: {instanceID: 0}
+  - enemyPlayerData: {instanceID: 0}
+  - myMothership: {instanceID: 0}
+  - myBoardManager: {instanceID: 0}
+  - myCostManager: {instanceID: 0}
+  - myHandManager: {instanceID: 0}
+  - myCounterManager: {instanceID: 0}
+  - enemyMothership: {instanceID: 0}
+  - enemyBoardManager: {instanceID: 0}
+  - enemyCostManager: {instanceID: 0}
+  - enemyHandManager: {instanceID: 0}
+  - enemyCounterManager: {instanceID: 0}
+  - gameEndController: {instanceID: 0}
+  - gameOptions: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

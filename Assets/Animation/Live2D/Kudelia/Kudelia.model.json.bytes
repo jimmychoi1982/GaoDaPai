@@ -1,0 +1,38 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"moc/Kudelia.moc",
+	"textures":[
+		"moc/Kudelia.2048/texture_00.png",
+		"moc/Kudelia.2048/texture_01.png"
+	],
+	"motions":{
+		"idle":[
+			{"file":"mtn/idle.mtn"}
+		],
+		"":[
+			{"file":"mtn/01.mtn","sound":"voive/KUDELIA_01.mp3"},
+			{"file":"mtn/02.mtn","sound":"voive/KUDELIA_02.mp3"},
+			{"file":"mtn/03.mtn","sound":"voive/KUDELIA_03.mp3"},
+			{"file":"mtn/04.mtn","sound":"voive/KUDELIA_04_B.mp3"},
+			{"file":"mtn/05.mtn","sound":"voive/KUDELIA_05_B.mp3"},
+			{"file":"mtn/06.mtn","sound":"voive/KUDELIA_06_B.mp3"},
+			{"file":"mtn/07.mtn","sound":"voive/KUDELIA_07_B.mp3"},
+			{"file":"mtn/08.mtn","sound":"voive/KUDELIA_08.mp3"},
+			{"file":"mtn/09.mtn","sound":"voive/KUDELIA_09.mp3"},
+			{"file":"mtn/10.mtn","sound":"voive/KUDELIA_10.mp3"},
+			{"file":"mtn/11.mtn","sound":"voive/KUDELIA_11.mp3"},
+			{"file":"mtn/12.mtn","sound":"voive/KUDELIA_12.mp3"},
+			{"file":"mtn/13-1.mtn","sound":"voive/KUDELIA_13_C.mp3"},
+			{"file":"mtn/13-2.mtn","sound":"voive/KUDELIA_13_C.mp3"},
+			{"file":"mtn/14.mtn","sound":"voive/KUDELIA_14.mp3"},
+			{"file":"mtn/15.mtn","sound":"voive/KUDELIA_15.mp3"},
+			{"file":"mtn/16.mtn","sound":"voive/KUDELIA_16.mp3"},
+			{"file":"mtn/17.mtn","sound":"voive/KUDELIA_17_C.mp3"},
+			{"file":"mtn/18.mtn","sound":"voive/KUDELIA_18.mp3"},
+			{"file":"mtn/19.mtn","sound":"voive/KUDELIA_19_B.mp3"},
+			{"file":"mtn/20.mtn","sound":"voive/KUDELIA_20.mp3"},
+			{"file":"mtn/21.mtn","sound":"voive/KUDELIA_21.mp3"}
+		]
+	},
+	"physics":"Kudelia.physics.json"
+}

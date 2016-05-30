@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.prime31.Localytics">
+    <uses-sdk android:minSdkVersion="9"/>
+
+    <application>
+		<receiver android:name="com.localytics.android.ReferralReceiver" android:exported="true">
+		      <intent-filter>
+		        <action android:name="com.android.vending.INSTALL_REFERRER" />
+		      </intent-filter>
+		</receiver>
+
+		<meta-data android:name="com.prime31.LocalyticsPlugin" android:value="UnityPlayerActivityProxy"/>
+		<meta-data android:name="LOCALYTICS_APP_KEY" android:value="09c18c6dfe15f802d9ce5b8-c3ca0afc-e66a-11e5-5711-0042876ec363"/>
+    </application>
+
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+</manifest>

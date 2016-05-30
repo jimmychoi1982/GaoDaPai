@@ -1,0 +1,410 @@
+{
+	"cw11001012": {
+		"cardId": "cw11001012",
+		"cardGroupId": "cw11001012",
+		"cardTypeId": "1",
+		"cardCode": "ST01-012",
+		"countryCode": "JP",
+		"name": "アムロ・レイ",
+		"cardLimit": 4,
+		"packId": [
+			"st01"
+		],
+		"color": "neutral",
+		"rarity": 1,
+		"atk": 1,
+		"def": 1,
+		"characteristicId": [
+			"federation",
+			"nt"
+		],
+		"description": [
+			"攻撃時<br />搭乗しているユニットを行動済の敵のユニット1機につきATK+1する。"
+		],
+		"effects": [
+			"increaseDamage1ForEveryImmobilisedEnemyUnitBeforeAttack"
+		]
+	},
+	"cw11001013": {
+		"cardId": "cw11001013",
+		"cardGroupId": "cw11001013",
+		"cardTypeId": "1",
+		"cardCode": "ST01-013",
+		"countryCode": "JP",
+		"name": "ララァ・スン",
+		"cardLimit": 4,
+		"packId": [
+			"st01"
+		],
+		"color": "neutral",
+		"rarity": 1,
+		"atk": 1,
+		"def": 1,
+		"characteristicId": [
+			"zion",
+			"nt"
+		],
+		"description": [
+			"あなたのターン<br />他のSサイズの味方のユニット全てをATK+1する。<br />搭乗しているユニットが「エルメス」であれば、かわりに他のSサイズの味方のユニット全てをATK+2する。"
+		],
+		"effects": [
+			"increaseAllMySSizeUnitsAtk1IfThisUnitIsHermesIncreaseAtk2OnMyTurn",
+			"increasePlacedUnitAtk1IfThisUnitIsHermesIncreaseAtk2OnCardPlaced"
+		]
+	},
+	"cw12001150": {
+		"cardId": "cw12001150",
+		"cardGroupId": "cw12001150",
+		"cardTypeId": "1",
+		"cardCode": "BT01-150",
+		"countryCode": "JP",
+		"name": "セイラ・マス",
+		"cardLimit": 4,
+		"packId": [
+			"st01",
+			"bt01"
+		],
+		"color": "neutral",
+		"rarity": 1,
+		"atk": 0,
+		"def": 2,
+		"characteristicId": [
+			"federation",
+			"nt"
+		]
+	},
+	"cw11002012": {
+		"cardId": "cw11002012",
+		"cardGroupId": "cw11002012",
+		"cardTypeId": "1",
+		"cardCode": "ST02-012",
+		"countryCode": "JP",
+		"name": "キラ・ヤマト",
+		"cardLimit": 4,
+		"packId": [
+			"st02"
+		],
+		"color": "neutral",
+		"rarity": 1,
+		"atk": 1,
+		"def": 1,
+		"characteristicId": [
+			"coordinator"
+		],
+		"description": [
+			"搭乗しているユニットの効果によるダメージを+1する。"
+		],
+		"effects": [
+			"increaseThisUnitEffectDamage1"
+		]
+	},
+	"cw11002013": {
+		"cardId": "cw11002013",
+		"cardGroupId": "cw11002013",
+		"cardTypeId": "1",
+		"cardCode": "ST02-013",
+		"countryCode": "JP",
+		"name": "アスラン・ザラ",
+		"cardLimit": 4,
+		"packId": [
+			"st02"
+		],
+		"color": "neutral",
+		"rarity": 1,
+		"atk": 1,
+		"def": 1,
+		"characteristicId": [
+			"zaft",
+			"coordinator"
+		],
+		"description": [
+			"あなたのターン<br />搭乗しているユニットをDEF+2する。"
+		],
+		"effects": [
+			"increaseThisUnitDef2OnMyTurn"
+		]
+	},
+	"cw12001158": {
+		"cardId": "cw12001158",
+		"cardGroupId": "cw12001158",
+		"cardTypeId": "1",
+		"cardCode": "BT01-158",
+		"countryCode": "JP",
+		"name": "アンドリュー・バルトフェルド",
+		"cardLimit": 4,
+		"packId": [
+			"st02",
+			"bt01"
+		],
+		"color": "neutral",
+		"rarity": 1,
+		"atk": 2,
+		"def": 0,
+		"characteristicId": [
+			"zaft",
+			"coordinator"
+		]
+	},
+	"cw12001149": {
+		"cardId": "cw12001149",
+		"cardGroupId": "cw12001149",
+		"cardTypeId": "1",
+		"cardCode": "BT01-149",
+		"countryCode": "JP",
+		"name": "シャア・アズナブル",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "neutral",
+		"rarity": 2,
+		"atk": 1,
+		"def": 1,
+		"characteristicId": [
+			"zion",
+			"nt"
+		],
+		"description": [
+			"破壊時<br />あなたのブリッジにいる緑のクルーカードが4枚以上のとき、搭乗しているユニットを手札に戻す。"
+		],
+		"effects": [
+			"returnThisUnitToHandIfHave4GreenCrewCardsOnDestroy"
+		]
+	},
+	"cw12001151": {
+		"cardId": "cw12001151",
+		"cardGroupId": "cw12001151",
+		"cardTypeId": "1",
+		"cardCode": "BT01-151",
+		"countryCode": "JP",
+		"name": "ノリス・パッカード",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "neutral",
+		"rarity": 2,
+		"atk": 2,
+		"def": 2,
+		"characteristicId": [
+			"zion"
+		],
+		"description": [
+			"破壊時<br />このパイロットをゲームから取り除く。"
+		],
+		"effects": [
+			"destroyPilotOnDestroy"
+		]
+	},
+	"cw12001152": {
+		"cardId": "cw12001152",
+		"cardGroupId": "cw12001152",
+		"cardTypeId": "1",
+		"cardCode": "BT01-152",
+		"countryCode": "JP",
+		"name": "カミーユ・ビダン",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "neutral",
+		"rarity": 2,
+		"atk": 0,
+		"def": 0,
+		"characteristicId": [
+			"aeug",
+			"nt"
+		],
+		"description": [
+			"【防衛】<br />このユニットがいる限り、敵のユニットはあなたの母艦を攻撃できない。"
+		],
+		"effects": [
+			"preventTargetMyMothershipOnEnemyTurn"
+		]
+	},
+	"cw12001153": {
+		"cardId": "cw12001153",
+		"cardGroupId": "cw12001153",
+		"cardTypeId": "1",
+		"cardCode": "BT01-153",
+		"countryCode": "JP",
+		"name": "クワトロ・バジーナ",
+		"cardLimit": 4,
+		"packId": [
+			"pr-p",
+			"bt01"
+		],
+		"color": "neutral",
+		"rarity": 2,
+		"atk": 1,
+		"def": 1,
+		"characteristicId": [
+			"aeug",
+			"nt"
+		],
+		"description": [
+			"相手のターン<br />搭乗しているユニットは、「敵のユニット1機」を対象とした相手の効果を受けない。"
+		],
+		"effects": [
+			"preventEffectTargettingIfSingleTargetBeforeEffectDamage"
+		]
+	},
+	"cw12001154": {
+		"cardId": "cw12001154",
+		"cardGroupId": "cw12001154",
+		"cardTypeId": "1",
+		"cardCode": "BT01-154",
+		"countryCode": "JP",
+		"name": "パプテマス・シロッコ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "neutral",
+		"rarity": 2,
+		"atk": 1,
+		"def": 1,
+		"characteristicId": [
+			"titans",
+			"nt"
+		],
+		"description": [
+			"出撃時<br />あなたのブリッジにいる黒のクルーカード3枚を未行動にする。このターンの間、あなたは手札からユニットカードを出撃できない。"
+		],
+		"effects": [
+			"mobilise3BlackCrewOnLaunch",
+			"preventUnitLaunchForTurnOnLaunch"
+		]
+	},
+	"cw12001155": {
+		"cardId": "cw12001155",
+		"cardGroupId": "cw12001155",
+		"cardTypeId": "1",
+		"cardCode": "BT01-155",
+		"countryCode": "JP",
+		"name": "バナージ・リンクス",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "neutral",
+		"rarity": 2,
+		"atk": 1,
+		"def": 1,
+		"characteristicId": [
+			"nt"
+		],
+		"description": [
+			"出撃時<br />あなたのブリッジにいる青のクルーカードが5枚以上のとき、総コスト5以下の敵のユニット1機を行動済にする。"
+		],
+		"effects": [
+			"immobilise1EnemyTargetWithTotalCost5LessIf5MoreBlueCrewOnLaunch"
+		]
+	},
+	"cw12001156": {
+		"cardId": "cw12001156",
+		"cardGroupId": "cw12001156",
+		"cardTypeId": "1",
+		"cardCode": "BT01-156",
+		"countryCode": "JP",
+		"name": "ウッソ・エヴィン",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "neutral",
+		"rarity": 2,
+		"atk": 1,
+		"def": 1,
+		"characteristicId": [
+			"nt",
+			"special"
+		],
+		"description": [
+			"攻撃時<br />搭乗しているユニットが戦闘によるダメージで敵のユニットを破壊したとき、あなたのブリッジにいる黄のクルーカードが4枚以上であれば、相手の母艦に3ダメージを与える。"
+		],
+		"effects": [
+			"do3DamageToEnemyMothershipIfThisUnitDestroysEnemyAndHave4YellowCrew"
+		]
+	},
+	"cw12001157": {
+		"cardId": "cw12001157",
+		"cardGroupId": "cw12001157",
+		"cardTypeId": "1",
+		"cardCode": "BT01-157",
+		"countryCode": "JP",
+		"name": "ムウ・ラ・フラガ",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "neutral",
+		"rarity": 2,
+		"atk": 1,
+		"def": 1,
+		"characteristicId": [
+			"natural"
+		],
+		"description": [
+			"攻撃時<br />搭乗しているユニットが敵のユニットを攻撃しているとき、その搭乗しているユニットをATK+2する。",
+			"the japanese on this is off, this should have said Damage+2 instead of ATK+2"
+		],
+		"effects": [
+			"increaseDamage2BeforeAttack"
+		]
+	},
+	"cw12001159": {
+		"cardId": "cw12001159",
+		"cardGroupId": "cw12001159",
+		"cardTypeId": "1",
+		"cardCode": "BT01-159",
+		"countryCode": "JP",
+		"name": "三日月・オーガス",
+		"cardLimit": 4,
+		"packId": [
+			"bt01"
+		],
+		"color": "neutral",
+		"rarity": 2,
+		"atk": 1,
+		"def": 1,
+		"characteristicId": [
+			"cgs",
+			"arayashiki"
+		],
+		"description": [
+			"【ブリッジ】<br />このカードの効果はブリッジにいるときに発揮する。"
+		],
+		"effects": [
+			"allowRideUnitEvenIfTapped"
+		]
+	},
+	"cw13001p001": {
+		"cardId": "cw13001p001",
+		"cardGroupId": "cw13001p001",
+		"cardTypeId": "1",
+		"cardCode": "PR-P001",
+		"countryCode": "JP",
+		"name": "シャア・アズナブル",
+		"cardLimit": 4,
+		"packId": [
+			"pr-p",
+			"bt01"
+		],
+		"color": "neutral",
+		"rarity": 1,
+		"atk": 1,
+		"def": 1,
+		"characteristicId": [
+			"zion",
+			"nt"
+		],
+		"description": [
+			"搭乗しているユニットが《シャア専用》か《キャスバル専用》を持つとき、そのユニットをATK+1/DEF+1する。"
+		],
+		"effects": [
+			"increaseThisUnitAtk1Def1IfUnitAttributeCharsOrCasvalsOnMyTurn",
+			"increaseThisUnitAtk1Def1IfUnitAttributeCharsOrCasvalsOnEnemyTurn"
+		]
+	}
+}
